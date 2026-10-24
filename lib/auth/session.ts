@@ -68,6 +68,8 @@ export async function endSession() {
 }
 
 export async function getAdmin(): Promise<Admin | null> {
+  // Sessions are per request; this also keeps route handlers that check them out of prerendering.
+  await connection();
   assertLocalAllowed();
   const raw = (await cookies()).get(COOKIE)?.value;
   if (!raw) return null;
