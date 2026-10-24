@@ -1,0 +1,531 @@
+{
+  "slug": "salary-negotiation-script-pack",
+  "title": "Salary Negotiation Script Pack",
+  "subtitle": "Scripts and Exercises for Every Stage of the Offer Conversation",
+  "sections": [
+    {
+      "title": "Before you start",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Welcome to the **Salary Negotiation Script Pack**, your step-by-step guide to transforming how you handle one of the most critical moments in your career: **discussing compensation**. Many professionals undersell themselves, not because they lack talent, but because they don’t know the rules of the game."
+        },
+        {
+          "t": "p",
+          "text": "This pack is designed to change that. Inside, you’ll find:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Scripts** for each stage of the conversation, ready to adapt.",
+            "**Practical exercises** to adapt the scripts to your situation.",
+            "**Insider psychology** from recruiters and hiring managers.",
+            "**A worked example** of a negotiation from first offer to final number."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Think of it as your **negotiation playbook**. Whether you’re a fresher stepping into your first role, a mid-career professional moving industries, or a senior leader switching firms, the ability to negotiate effectively can **change your lifetime earnings trajectory**."
+        },
+        {
+          "t": "p",
+          "text": "By the end of this pack, you won’t just have “lines to say.” You’ll have the **mindset, confidence, and strategies** to walk into any negotiation with clarity and control."
+        },
+        {
+          "t": "p",
+          "text": "Read it slowly. Pause for the exercises. Rehearse the scripts. This isn’t theory—it’s your financial future."
+        }
+      ]
+    },
+    {
+      "title": "Why Salary Negotiation Matters",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Salary negotiation is not about greed—it’s about **fairness and recognition**. Imagine two graduates joining the same firm. One accepts the initial offer of ₹14 LPA. The other negotiates and lands ₹16 LPA. At first, the difference looks small—just ₹2 lakhs. But here’s the trick: future increments, bonuses, and promotions are calculated as a **percentage of base salary**. Fast forward 10 years. That ₹2 lakh difference compounds into **₹25–30 lakhs more earned** by the negotiator."
+        },
+        {
+          "t": "p",
+          "text": "Across a 30–40 year career, the lifetime gap can be **₹2–3 crores ($250,000–500,000+ in the West)**. That’s the cost of staying silent."
+        },
+        {
+          "t": "p",
+          "text": "So why do most candidates skip negotiating? Fear. They worry about losing the offer or being seen as “difficult.” In reality, recruiters expect negotiation. Many companies **leave room in the budget** because they expect candidates to ask. If you don’t, you’ve left money on the table."
+        },
+        {
+          "t": "p",
+          "text": "Negotiation is not about confrontation. It’s about **presenting evidence of your value** and aligning it with company budgets. Think of it as storytelling: “Here’s what I bring, here’s what others in the market get, and here’s why aligning here makes sense for both of us.”"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down the last offer you received. Now imagine negotiating 10% higher. Multiply that by 10 years. What’s the difference? That’s your “negotiation tax” if you stay silent.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "My last offer",
+                ""
+              ],
+              [
+                "10% higher",
+                ""
+              ],
+              [
+                "The difference over 10 years",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Anatomy of a Great Negotiation",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Negotiation isn’t random—it’s structured. Think of it as a play with four acts:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Gratitude** – Always begin by expressing appreciation. “Thank you for the offer. I’m genuinely excited about the opportunity.” Gratitude sets a collaborative tone instead of conflict.",
+            "**Value Reinforcement** – Remind them why you’re worth more. Mention specific achievements, certifications, or leadership experience that adds measurable business impact.",
+            "**Counter Request** – Clearly state your expectations, preferably as a **range**. Example: “Based on my skills and market benchmarks, I believe ₹18–20 LPA would be a fair range.”",
+            "**Collaboration** – End with a willingness to find common ground. “I’m confident we can arrive at a number that works for both of us.”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Timing is also key. Don’t negotiate until **after the offer is in writing**. Once you see a formal number, you know they want you—that’s when your leverage is strongest."
+        },
+        {
+          "t": "p",
+          "text": "Tone matters as much as words. Sound calm, professional, and confident. Avoid nervous laughter, over-apologizing, or phrases like “if it’s not too much to ask.” Those weaken your position."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down your next negotiation flow in 4 steps: Gratitude → Value → Counter → Collaboration. Rehearse it until it feels natural.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Step",
+              "What I’ll say"
+            ],
+            "rows": [
+              [
+                "Gratitude",
+                ""
+              ],
+              [
+                "Value",
+                ""
+              ],
+              [
+                "Counter",
+                ""
+              ],
+              [
+                "Collaboration",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Initial Recruiter Call",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "This is usually the trickiest moment. You’ve barely built rapport, and suddenly the recruiter asks: “What are your salary expectations?” Say too low—you anchor yourself down. Say too high—you risk disqualification."
+        },
+        {
+          "t": "p",
+          "text": "The goal here is **deflection + anchoring**. You don’t want to give a single number, but you also don’t want to seem clueless."
+        },
+        {
+          "t": "script",
+          "items": [
+            "**Sample Script 1:**",
+            "Recruiter: “What are your salary expectations?”",
+            "You: “Based on my research and industry benchmarks, I’d expect something in the **₹18–20 LPA range**. That said, I’m flexible and more focused on the role’s responsibilities and long-term growth.”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Why this works:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Signals research** – you know your market value.",
+            "**Sets a higher anchor** – recruiter now frames discussions around your range.",
+            "**Keeps flexibility** – shows you’re not rigid."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down your own researched salary range for your target role. Then practice saying it out loud until you sound confident—not hesitant.",
+          "lines": 3
+        }
+      ],
+      "eyebrow": "Script 1"
+    },
+    {
+      "title": "Handling a Lowball Offer",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "It happens often. The company comes back with a surprisingly low number. The instinct? Panic or frustration. The smarter move? **Re-anchor calmly.**"
+        },
+        {
+          "t": "script",
+          "items": [
+            "**Sample Script 2:**",
+            "Recruiter: “We’re offering ₹14 LPA.”",
+            "You: “Thank you for the offer, I’m very excited about the role. Based on my experience in [X project] and the market benchmarks for similar roles, I was expecting something closer to ₹18–19 LPA. Is there room for us to explore that?”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Why this works:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Opens with gratitude → keeps tone positive.",
+            "Adds **evidence** (your achievements + market data).",
+            "Uses a question instead of a demand → encourages dialogue."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Most recruiters will test you with a lowball. If you accept immediately, they save money. If you counter respectfully, they often have room to adjust."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Research the lowest acceptable salary you’d consider. Write it down. This is your walk-away point. Anything below = not worth it.",
+          "lines": 2
+        }
+      ],
+      "eyebrow": "Script 2"
+    },
+    {
+      "title": "Counter-Offer Response",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "When they improve the offer, you’ve made progress. But don’t stop too soon. If you still see room, **push gently for final alignment**."
+        },
+        {
+          "t": "script",
+          "items": [
+            "**Sample Script 3:**",
+            "Recruiter: “We revised the offer to ₹16 LPA.”",
+            "You: “I really appreciate the revision—it shows you value my fit for this role. Considering my peers in similar positions earn around ₹18–20 LPA, and the leadership skills I bring, would it be possible to align closer to ₹18 LPA?”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Why this works:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Acknowledges their move (keeps goodwill).",
+            "Adds **market comparison**.",
+            "Frames your counter as **reasonable, not greedy**."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Many candidates stop negotiating after the first bump. But the real money is often in the **second ask**."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write your own polite counter for a scenario where you want ₹2–3 lakhs more. Practice with a friend.",
+          "lines": 5
+        }
+      ],
+      "eyebrow": "Script 3"
+    },
+    {
+      "title": "Leveraging Competing Offers",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "If you’re interviewing at multiple places, you hold power. But you must use it carefully. Don’t brag or sound threatening. Instead, frame it as **transparency and long-term intent**."
+        },
+        {
+          "t": "script",
+          "items": [
+            "**Sample Script 4:**",
+            "You: “I want to be transparent—I’m in final discussions with another firm at around ₹19 LPA. That said, I see a stronger long-term future here. If we could align closer to that, I’d be thrilled to commit.”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Why this works:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Signals **market validation** of your value.",
+            "Shows loyalty → “I prefer you, but align with me.”",
+            "Creates urgency for them to match quickly."
+          ]
+        },
+        {
+          "t": "callout",
+          "label": "Golden rule",
+          "text": "Only use this script if you **truly have another offer**. Recruiters sometimes verify."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Draft a sentence that frames your competing offer respectfully, without arrogance.",
+          "lines": 3
+        }
+      ],
+      "eyebrow": "Script 4"
+    },
+    {
+      "title": "Negotiating Non-Salary Benefits",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Sometimes companies hit a hard cap on base salary. That doesn’t mean the negotiation is over. **Total compensation** includes perks, bonuses, and benefits."
+        },
+        {
+          "t": "p",
+          "text": "Options to negotiate:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Joining bonus.",
+            "Performance bonus.",
+            "Relocation allowance.",
+            "Extra vacation days.",
+            "Flexible work-from-home policy.",
+            "Training budgets or certifications."
+          ]
+        },
+        {
+          "t": "script",
+          "items": [
+            "**Sample Script 5:**",
+            "You: “I understand the constraints on base salary. Could we explore flexibility with a **joining bonus** or **remote work benefits** to balance the package?”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Why this works:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Shows flexibility.",
+            "Still increases **overall value**.",
+            "Keeps goodwill intact."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Make a list of 3 non-salary benefits that matter most to you.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ],
+      "eyebrow": "Script 5"
+    },
+    {
+      "title": "Psychology Behind Recruiter Tactics",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Recruiters are professionals at saving money. Their tactics are predictable:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Anchoring:** Throw a low range to set expectations. Your job? Re-anchor higher.",
+            "**Urgency:** “We need an answer by tomorrow.” → Always ask for more time.",
+            "**Silence:** They stay quiet after you counter. Most candidates panic and talk themselves down. Stay calm."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "These aren’t “tricks”—they’re negotiation strategies. Once you see them, you can manage them."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Recall a time you faced silence or urgency. How did you react? How would you handle it differently now?",
+          "lines": 5
+        }
+      ]
+    },
+    {
+      "title": "Cultural Differences in Negotiation",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Negotiation varies globally:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**India:** Most candidates avoid negotiating. Those who do, win big.",
+            "**US:** Negotiation is expected. Going in without negotiating is seen as a lack of confidence.",
+            "**UK/EU:** Subtle, polite framing works best. Aggressive asks can backfire.",
+            "**Middle East/Asia:** Packages often include housing, travel, and allowances. Negotiate total lifestyle, not just salary."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a script tailored for the country where you’re applying.",
+          "lines": 5
+        }
+      ]
+    },
+    {
+      "title": "From ₹15 LPA to ₹20 LPA",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Candidate: Mid-level consultant.",
+            "Initial Offer: ₹15 LPA.",
+            "Strategy: Used **market benchmarks + competitor offer + polite counter script**.",
+            "Final Offer: ₹20 LPA (+33%)."
+          ]
+        },
+        {
+          "t": "callout",
+          "label": "Lessons",
+          "text": "",
+          "items": [
+            "She didn’t accept the first bump.",
+            "She used **scripts + confidence** to secure 2 revisions.",
+            "Recruiter respected her professionalism."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Identify a past job where you could have negotiated more. Rewrite that scenario using today’s scripts.",
+          "lines": 5
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Do’s & Don’ts Checklist",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Do’s"
+        },
+        {
+          "t": "check",
+          "items": [
+            "Research benchmarks (Glassdoor, AmbitionBox, Levels.fyi).",
+            "Express gratitude before asking.",
+            "Negotiate total package, not just salary."
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "Don’ts"
+        },
+        {
+          "t": "avoid",
+          "items": [
+            "Don’t apologize for negotiating.",
+            "Don’t give your current CTC as your “value.”",
+            "Don’t accept instantly—always take 24 hours."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Circle the top 3 “Do’s” you’ll apply in your next negotiation.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Action Plan Worksheet",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Fill this in before any negotiation."
+        },
+        {
+          "t": "template",
+          "fields": [
+            [
+              "My target range",
+              1
+            ],
+            [
+              "My walk-away number",
+              1
+            ],
+            [
+              "Market benchmark sources",
+              2
+            ],
+            [
+              "Top 3 value points I offer",
+              3
+            ],
+            [
+              "The script I’ll use",
+              1
+            ],
+            [
+              "My BATNA (backup plan)",
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Final Review",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Before any negotiation:"
+        },
+        {
+          "t": "check",
+          "items": [
+            "Rehearse your script aloud at least 3 times.",
+            "Have your “walk-away” number written.",
+            "Pause, breathe, and remember: **they chose YOU.**"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The difference between a ₹15 LPA and ₹20 LPA offer is not luck—it’s preparation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "slug": "mba-admissions-checklist",
+  "title": "MBA Admissions Checklist",
+  "subtitle": "Step-by-Step Roadmap to Secure Admits at Top Global Business Schools",
+  "sections": [
+    {
+      "title": "Why an MBA Admissions Checklist Is Essential",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Applying for an MBA at top schools (Harvard, Wharton, INSEAD, LBS, ISB) is like running a marathon—you need structure, stamina, and a plan. Many strong candidates fail not because they lack potential but because they mismanage **deadlines, storytelling, or fit.**"
+        },
+        {
+          "t": "p",
+          "text": "An admissions checklist ensures you approach this strategically, not reactively. Each step—resume, essays, recommendations—must align to tell a **coherent narrative.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Write why you want an MBA in 1–2 sentences. Career pivot? Faster leadership growth? Global exposure?",
+          "lines": 3
+        }
+      ]
+    },
+    {
+      "title": "Clarify Your MBA Goals (Short & Long Term)",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Admissions committees don’t want “general ambition.” They want **clarity.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Short-Term Goal (2–3 years post-MBA):** Consulting at Bain, Finance at JP Morgan, Product at Amazon.",
+            "**Long-Term Goal (10+ years):** Partner, CFO, Entrepreneur, Policy Leader."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write one short-term and one long-term goal in 2 lines each.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My goal"
+            ],
+            "rows": [
+              [
+                "Short term (2–3 years after the MBA)",
+                ""
+              ],
+              [
+                "Long term (10+ years)",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Select the Right Schools – Dream, Target, Safety",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Use the **DTS framework**:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Dream: Harvard, Stanford, INSEAD.",
+            "Target: Duke Fuqua, LBS, ISB.",
+            "Safety: Tier-2 programs that still match goals."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "List 2–3 schools in each DTS bucket.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Dream",
+              "Target",
+              "Safety"
+            ],
+            "rows": 3
+          }
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Research Program Strengths & Fit",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Schools differ in culture, strengths, and networks. Example:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "INSEAD = international diversity + consulting placements.",
+            "Wharton = finance powerhouse.",
+            "LBS = London exposure + global mobility.",
+            "ISB = India focus + global faculty."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick 1 school. Write 2 strengths and how they align with your goals.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "School strength",
+              "How it fits my goals"
+            ],
+            "rows": 2
+          }
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Build a Competitive Resume for Admissions",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your admissions resume should highlight:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Leadership: Did you lead teams/projects?",
+            "Impact: Did you save costs, increase revenue, influence strategy?",
+            "Extracurriculars: Volunteer, sports, NGOs."
+          ]
+        },
+        {
+          "t": "lines",
+          "items": [
+            "Don’t recycle job CVs—they’re too task-heavy.",
+            "Focus on leadership potential and quantifiable achievements."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Rewrite 1 resume bullet with numbers + leadership focus.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Crafting Authentic Essays & Personal Statements",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Essays = your **voice.** They must:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Answer why MBA, why now, why this school.",
+            "Showcase personal values & resilience.",
+            "Tell unique stories—not clichés."
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "Instead of “I want to lead,” show: “During a crisis project, I aligned 5 teams across geographies to deliver under budget.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Draft 3 bullet points from your life you could expand into essay stories.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Choosing and Guiding Recommenders",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your recommender should be:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Someone who **knows you well.**",
+            "Can speak about leadership & growth.",
+            "Aligned with your essays (no contradictions)."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Provide them a **recommendation packet**: your resume, essays, and 3 key stories they can highlight."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 2 names of potential recommenders.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Recommender",
+              "How they know me",
+              "Stories they can tell"
+            ],
+            "rows": 2
+          }
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Preparing for GMAT/GRE & Language Tests",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**GMAT/GRE:** Aim at or above the median score in each target school’s latest class profile.",
+            "**IELTS/TOEFL:** Needed if undergrad wasn’t in English.",
+            "Prep tip: Practice 1 hr/day for 6–9 months."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write your target score + exam date.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Test",
+              "Target score",
+              "Exam date"
+            ],
+            "rows": [
+              [
+                "GMAT / GRE",
+                "",
+                ""
+              ],
+              [
+                "IELTS / TOEFL (if needed)",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Structuring Your Application Timeline",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "MBA apps = project management."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Round 1: September–October (often the best scholarship chances).",
+            "Round 2: January–February (a larger applicant pool).",
+            "Round 3: riskier; use it only for backup schools."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Build a calendar with GMAT prep, essay drafts, and submission deadlines.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Month",
+              "Test prep",
+              "Essays and recommenders",
+              "Deadlines"
+            ],
+            "rows": 12,
+            "widths": [
+              16,
+              28,
+              32,
+              24
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 8"
+    },
+    {
+      "title": "Preparing for MBA Interviews",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "MBA interviews test **fit + communication.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Common Qs: “Why MBA?” “Why this school?” “Leadership story?”",
+            "Practice with **mock interviews.**"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Record a 2-min answer to “Why MBA now?” and review for clarity.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 9"
+    },
+    {
+      "title": "Planning Scholarships, Loans & Funding",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Funding is often overlooked. Options:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Merit scholarships (ISB, Oxford).",
+            "Need-based aid (Harvard, Stanford).",
+            "Loans: Prodigy Finance, MPower, Indian banks."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "List 2 funding sources you’d explore.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ],
+      "eyebrow": "Step 10"
+    },
+    {
+      "title": "Worked examples",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "**An Indian business school admit:** Aarav, a chartered accountant at a Big Four firm, wrote essays about leading through client crises. Result: an admit with a 30% scholarship.",
+            "**A European business school admit:** Maria, a consultant, highlighted her international mobility and growth mindset. Result: an admit with a scholarship."
+          ]
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Storytelling + clarity + funding prep = success."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Pitfalls and Your 90-Day Plan",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Mistakes: Generic essays, weak recommenders, late submissions.",
+            "Fix: Start early, build strong stories, align every element."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Days 1–30",
+              "School research + resume rewrite."
+            ],
+            [
+              "Days 31–60",
+              "Essays + recommendations."
+            ],
+            [
+              "Days 61–90",
+              "Interview prep + funding strategy."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

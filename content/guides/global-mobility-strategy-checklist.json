@@ -1,0 +1,393 @@
+{
+  "slug": "global-mobility-strategy-checklist",
+  "title": "Global Mobility Strategy Checklist",
+  "subtitle": "How to Plan, Apply, and Succeed in an International Career Move",
+  "sections": [
+    {
+      "title": "Why Global Careers Are on the Rise",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In today’s interconnected economy, international careers are no longer optional—they’re strategic. Whether it’s consulting in London, tech in Silicon Valley, or finance in Dubai, global experience is seen as a **differentiator for leadership roles.**"
+        },
+        {
+          "t": "p",
+          "text": "Employers value professionals with international exposure because they bring:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Cross-cultural adaptability.",
+            "Expanded networks.",
+            "Broader problem-solving perspectives."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Remote work is now common, but in-person **global rotations, transfers, and relocations** remain a fast track to senior leadership."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down 3 countries where you’d like to work. Circle the one that aligns best with your career goals.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ]
+    },
+    {
+      "title": "Benefits of International Experience",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Why should you consider moving abroad for work?"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Career Growth:** International assignments are linked with faster promotions.",
+            "**Financial Benefits:** Salaries in the US, UK, and Middle East often outpace home-country packages.",
+            "**Skill Development:** Exposure to global markets strengthens leadership and problem-solving skills.",
+            "**Personal Growth:** Living abroad builds resilience, adaptability, and cultural awareness."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Beyond salary, which benefit excites you most about a global role?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Choosing the Right Country for Your Career",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Not every country suits every professional. You must balance opportunity, visa ease, and lifestyle."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**US:** Great for tech, finance, consulting, but tough visas (H1B).",
+            "**UK:** Strong for consulting and finance; post-study work visas available.",
+            "**Middle East (UAE, KSA, Qatar):** High salaries, tax-free, booming in finance/consulting.",
+            "**Canada:** Easier PR pathways, but salaries lower than US.",
+            "**Singapore:** Asia hub for consulting, banking, supply chain."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Research 1 target country and note its top hiring industries.",
+          "lines": 3
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Understanding Visa Options & Requirements",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Visa rules vary widely. Examples:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**US H1B:** Lottery system, employer sponsorship.",
+            "**UK Skilled Worker Visa:** Points-based; requires employer license.",
+            "**Canada PR:** Express Entry based on age, education, experience.",
+            "**UAE:** Employer sponsorship, often fast-tracked."
+          ]
+        },
+        {
+          "t": "callout",
+          "label": "Check before you plan",
+          "text": "Visa and immigration rules change often. Confirm the current requirements on the official government website for each country."
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Write down visa eligibility for your top country.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              ""
+            ],
+            "rows": [
+              [
+                "Country and visa",
+                ""
+              ],
+              [
+                "Who is eligible",
+                ""
+              ],
+              [
+                "Sponsor needed?",
+                ""
+              ],
+              [
+                "Time and cost",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Targeting Industries With Strong Global Hiring",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Sectors that hire internationally:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Consulting:** MBB, Big 4, boutique firms.",
+            "**Finance:** IB, VC, asset management.",
+            "**Tech:** Product management, AI, data science.",
+            "**Healthcare:** Biotech, pharma, med-tech.",
+            "**Energy/ESG:** Renewables, sustainability roles."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Match your skills to one industry that is actively hiring globally.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Identifying Transferable Skills for International Markets",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Employers abroad value **skills over location.** Transferable skills include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Problem-solving & critical thinking.",
+            "Communication in global teams.",
+            "Data analytics & digital fluency.",
+            "Leadership & stakeholder management."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down 5 transferable skills from your current role.",
+          "lines": 4,
+          "numbered": 5
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Resume & LinkedIn Localization",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your resume for India won’t work in the US or UK. Adjust for:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Format:** 1 page in the US, 2 in Europe.",
+            "**Content:** Remove photos, marital status.",
+            "**Language:** Use country-specific terminology (e.g., “CPA” vs “Chartered Accountant”)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Take your current resume and identify 3 localization edits needed.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Building a Global Network",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Networking is **even more important abroad.** Many global roles are filled internally."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Leverage alumni networks.",
+            "Join LinkedIn groups by geography.",
+            "Attend virtual meetups hosted by target firms."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Write the names of 5 professionals abroad you can reach out to this month.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Name",
+              "Where they work",
+              "How I know them / how I’ll reach them"
+            ],
+            "rows": 5
+          }
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Preparing for Cross-Cultural Interviews",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Interview styles differ by culture:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**US:** Direct, numbers-driven, confidence matters.",
+            "**UK:** Polite, structured, cultural fit tested.",
+            "**Middle East:** Relationship-focused, emphasis on trust.",
+            "**Asia:** Hierarchy-sensitive, humility respected."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Research 1 interview difference in your target country and practice.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Negotiating Global Compensation Packages",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Global salaries often sound high, but cost of living, taxes, and relocation costs matter."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Always ask: “What’s the net take-home?”",
+            "Negotiate housing, relocation, visa fees.",
+            "Check if healthcare is included."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Compare gross vs net salary for 1 target country.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "Gross salary",
+                ""
+              ],
+              [
+                "Income tax and social charges",
+                ""
+              ],
+              [
+                "Housing",
+                ""
+              ],
+              [
+                "Healthcare",
+                ""
+              ],
+              [
+                "Other living costs",
+                ""
+              ],
+              [
+                "Net, after the above",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 8"
+    },
+    {
+      "title": "Consulting Role in the UK",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Rohit, a consultant in India, aimed for London. He rewrote his resume to UK standards, reached out to alumni there and secured interviews. He negotiated relocation support and a signing bonus, and moved within 6 months."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Localization + networking = success."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Finance Role in the Middle East",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Aditi, an Indian CA, applied for Dubai-based IB firms. She emphasized transferable skills, built connections on LinkedIn, and used her CFA Level I certification to stand out. She landed an associate role with a tax-free salary well above her pay in India."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Certifications + networking accelerate Middle East pivots."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes and Your 90-Day Plan",
+      "blocks": [
+        {
+          "t": "avoid",
+          "items": [
+            "Applying without localization.",
+            "Ignoring visa feasibility.",
+            "Not building a global network early."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Days 1–30",
+              "Research + Resume/LinkedIn localization."
+            ],
+            [
+              "Days 31–60",
+              "Build network + apply selectively."
+            ],
+            [
+              "Days 61–90",
+              "Prep for interviews + negotiate package."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

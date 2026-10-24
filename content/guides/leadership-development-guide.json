@@ -1,0 +1,280 @@
+{
+  "slug": "leadership-development-guide",
+  "title": "Leadership Development Guide",
+  "subtitle": "How to Build Influence, Lead Teams, and Accelerate Toward Executive Roles",
+  "sections": [
+    {
+      "title": "Why Leadership Development Is Non-Negotiable",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Technical skills may get you hired, but leadership skills get you promoted. Today’s organizations need **leaders who inspire, influence, and innovate.** Even in your first 3 years, building leadership traits separates **future executives from average managers.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "What leadership trait do you admire most in your manager?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Define Your Leadership Philosophy",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your leadership philosophy = **your compass.** Are you a servant leader? A visionary? A data-driven leader? Define it now—before you manage large teams."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 3 sentences describing your leadership style (aspirational if needed).",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Leading Without Authority – Early Career Leadership",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "You don’t need a title to lead. Analysts, associates, and engineers can demonstrate leadership by:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Taking initiative in projects.",
+            "Owning deliverables fully.",
+            "Supporting and mentoring peers."
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "Sneha, an analyst, earned an early promotion by mentoring interns and becoming the team’s “go-to” problem solver."
+          ]
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Communication Skills That Inspire Confidence",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Leadership = communication. Master:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Upward:** Concise updates to managers.",
+            "**Downward:** Clear instructions to juniors.",
+            "**Outward:** Confident presentations to clients."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Record a 2-min explanation of your project as if to a CEO.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Building Emotional Intelligence (EQ)",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "EQ is one of the strongest predictors of leadership success. Components:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Self-awareness.",
+            "Self-regulation.",
+            "Empathy.",
+            "Relationship building."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write one situation where empathy helped you succeed.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Decision-Making Under Uncertainty",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Leaders rarely have full data. They must make **80% confidence decisions.** Use:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Hypothesis-driven thinking.",
+            "Scenario planning.",
+            "Risk-benefit trade-offs."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Think of 1 tough decision you made with incomplete info. What did you learn?",
+          "lines": 5
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Managing Teams and Driving Performance",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Good managers assign tasks. Great leaders **unlock performance.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Align goals with motivation.",
+            "Balance accountability + empathy.",
+            "Celebrate wins publicly."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 2 ways you’d motivate a struggling team member.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Leading Through Change & Transformation",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Change creates fear. Leaders must communicate vision and reduce uncertainty.",
+            "Framework: **Why → What → How → When.**"
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "Rohan led a digital transformation project. He held weekly town halls explaining the “why,” and resistance to the change dropped noticeably."
+          ]
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Building Executive Presence",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Executive presence = confidence + clarity + calmness."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Strong posture & voice.",
+            "Clear, simple messaging.",
+            "Composure under stress."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a 30-second “executive summary” of your current project.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 8"
+    },
+    {
+      "title": "Mentorship & Coaching as a Leader",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Leaders don’t just manage—they grow others."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Mentorship:** Career guidance.",
+            "**Coaching:** Skill development."
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "Priya built a mentorship circle for women in her tech team, and more of them stayed with the company."
+          ]
+        }
+      ],
+      "eyebrow": "Step 9"
+    },
+    {
+      "title": "From associate to client leader",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Aarav joined a consulting firm as an associate. By year 4, he led client workshops. By year 8, he was managing global accounts. His edge? **Influence, not authority.** He built trust early and delivered consistently."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "A manager building a global team",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Maria managed a 10-member product team across 4 countries. She implemented structured weekly syncs, cultural sensitivity training, and transparent KPIs. Her team hit deadlines 95% of the time."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Leadership = systems + empathy."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Pitfalls and Your 90-Day Plan",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Mistakes: Micromanaging, ignoring EQ, chasing title > impact.",
+            "Fix: Build philosophy, practice presence, mentor early."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Weeks 1–4",
+              "Define philosophy, practice communication."
+            ],
+            [
+              "Weeks 5–8",
+              "Build EQ + decision-making scenarios."
+            ],
+            [
+              "Weeks 9–12",
+              "Mentor peers + practice executive presence."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

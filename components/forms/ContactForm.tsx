@@ -4,7 +4,7 @@ import { useState } from "react";
 import { contactSchema, fieldErrors, topics } from "@/lib/validation";
 import { site } from "@/lib/site";
 import { Icon } from "@/components/site/Icons";
-import { ConsentField, SelectField, TextAreaField, TextField } from "./fields";
+import { ConsentField, PhoneField, SelectField, TextAreaField, TextField } from "./fields";
 import { postJson } from "./post-json";
 import { Turnstile } from "./Turnstile";
 
@@ -76,7 +76,7 @@ export function ContactForm({
         <TextField label="Email" name="email" type="email" autoComplete="email" required error={errors.email} />
       </div>
       <div className="form-row">
-        <TextField label="Phone" name="phone" type="tel" autoComplete="tel" optional error={errors.phone} />
+        <PhoneField label="Phone" name="phone" optional error={errors.phone} />
         <SelectField label="What’s it about?" name="topic" options={topics} defaultValue={defaultTopic} error={errors.topic} />
       </div>
       <TextAreaField label={messageLabel} name="message" optional hint={messageHint} maxLength={4000} error={errors.message} />

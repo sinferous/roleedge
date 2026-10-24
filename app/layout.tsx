@@ -12,7 +12,12 @@ export const metadata: Metadata = {
     template: `%s — ${site.name}`,
   },
   description: site.description,
-  icons: { icon: { url: "/assets/favicon.png", type: "image/png" } },
+  icons: {
+    icon: [
+      { url: "/assets/favicon.png", type: "image/png", sizes: "64x64" },
+      { url: "/assets/favicon-192.png", type: "image/png", sizes: "192x192" },
+    ],
+  },
   openGraph: {
     type: "website",
     siteName: site.name,

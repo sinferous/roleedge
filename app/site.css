@@ -3516,6 +3516,8 @@ h2,.section-heading h2,.mentor-intro h2,.starting-copy h2,.faq-intro h2,.closing
 .closing-email-button:hover,
 .closing-email-button:focus-visible { border-color: var(--ink); }
 .closing-email #copy-email-status {
+  /* Block in both states, so the margin holds when the text swaps and the line above stays put. */
+  display: grid;
   margin-top: 11px;
   color: #5f563f;
   font-size: 12px;
@@ -3804,6 +3806,12 @@ html:not(.js) .service-tabs-pill {
 }
 .mentor-photo img {
   outline-color: oklch(1 0 0 / .1);
+}
+/* Every "learn more" link: the chevron sits centred on the text, not on its baseline. */
+.t-learn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
 }
 .article-card > .t-learn {
   display: inline-flex;

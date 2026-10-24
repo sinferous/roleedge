@@ -1,0 +1,341 @@
+{
+  "slug": "global-mobility-career-guide",
+  "title": "Global Mobility Career Guide",
+  "subtitle": "Strategies to Build an International Career and Succeed Across Borders",
+  "sections": [
+    {
+      "title": "Why Global Mobility Matters in Today’s Career Landscape",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In a world where companies like McKinsey, Amazon, and JP Morgan hire globally, **geography should not limit ambition.** Global mobility allows you to:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Access higher salaries.",
+            "Gain multicultural exposure.",
+            "Build resilience and adaptability."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Why do you want a global career—money, exposure, family relocation, or impact?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Defining Your Global Career Vision",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Without clarity, international moves feel random. Define:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Destination industries:** Consulting in UK, Finance in US, Tech in Canada.",
+            "**Timeline:** Short-term assignment vs permanent move.",
+            "**Family fit:** Schooling, culture, cost of living."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write your 5-year international career vision.",
+          "lines": 5
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Identifying Target Geographies",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Each geography has unique pros/cons:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**US:** Highest salaries, competitive visas (H-1B).",
+            "**UK/EU:** Easier work permits, strong consulting/finance.",
+            "**Middle East:** Tax-free income, high expat population.",
+            "**Asia-Pacific (Singapore, HK):** Finance + tech hubs."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "List 2 countries aligned with your career + lifestyle goals.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Country",
+              "Career fit",
+              "Lifestyle fit"
+            ],
+            "rows": 2
+          }
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Researching Visa Pathways & Immigration Rules",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Visa is the gatekeeper."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**US:** H-1B, L-1, O-1.",
+            "**UK:** Skilled Worker visa.",
+            "**Canada:** PR via Express Entry.",
+            "**Germany:** Blue Card.",
+            "**Middle East:** Employer sponsorship."
+          ]
+        },
+        {
+          "t": "callout",
+          "label": "Check before you plan",
+          "text": "Visa and immigration rules change often. Confirm the current requirements on the official government website for each country."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Research 1 visa for your target country and note eligibility.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              ""
+            ],
+            "rows": [
+              [
+                "Country and visa",
+                ""
+              ],
+              [
+                "Who is eligible",
+                ""
+              ],
+              [
+                "Sponsor needed?",
+                ""
+              ],
+              [
+                "Time and cost",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Building Global Skills & Certifications",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Global employers prefer portable skills:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Consulting:** MBA, CFA, PMP.",
+            "**Finance:** ACA, CPA, CFA.",
+            "**Tech:** AWS, Azure, Google Cloud, Data Analytics."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 1 certification you’ll pursue this year for global relevance.",
+          "lines": 2
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Networking Internationally",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your international break often comes through **networks.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "LinkedIn outreach to alumni abroad.",
+            "Join professional associations (CFA, PMI, ISACA).",
+            "Attend global conferences virtually."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Send 1 LinkedIn message to an alum in your target geography.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Crafting a Globally Relevant Resume & LinkedIn",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Global resumes differ:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**US/UK:** 1-page, impact-focused, no photo.",
+            "**EU:** 2-page accepted, photo optional.",
+            "**Middle East:** Detailed, include nationality."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Rewrite 1 resume bullet in globally relevant format.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Preparing for Cross-Cultural Interviews",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Cultural nuances matter:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**US:** Confident, self-promoting style.",
+            "**UK:** Polished but understated.",
+            "**Asia:** Respectful, team-oriented."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Practice “Tell me about yourself” in 2 different cultural styles.",
+          "lines": 6
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Relocation & Settling Abroad",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Beyond job offer, success requires planning:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Budget: Salary vs cost of living.",
+            "Housing: Rentals, deposits.",
+            "Culture: Adapt to food, language, etiquette.",
+            "Taxes: Dual tax treaties."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Checklist",
+          "text": "List top 3 relocation worries you’d have.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 8"
+    },
+    {
+      "title": "Thriving in Global Teams & Remote Work",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Multicultural teams bring innovation—but also friction. Success requires:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Clear communication.",
+            "Cultural sensitivity.",
+            "Time zone management."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 1 strategy to manage collaboration with teams across 3 time zones.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 9"
+    },
+    {
+      "title": "From India to a UK consulting role",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Ananya, a business school graduate in India, targeted consulting roles in the UK. She prepared cases with London-based alumni, rewrote her resume in UK style, and joined a firm that sponsored her Skilled Worker visa."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "From Brazil to a US product role",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Lucas from Brazil did an MBA in the US. He networked with recruiters at tech companies, showcased his international projects, and secured a product manager role with H-1B sponsorship."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Global careers = skill + visa strategy + networking."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Pitfalls and Your 90-Day Plan",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Pitfalls: Assuming degree = job, ignoring visas, weak networks.",
+            "Fix: Plan 12–18 months ahead."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Weeks 1–4",
+              "Define vision + shortlist countries."
+            ],
+            [
+              "Weeks 5–8",
+              "Research visas + upskill."
+            ],
+            [
+              "Weeks 9–12",
+              "Networking + resume tailoring."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

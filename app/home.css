@@ -793,9 +793,6 @@ blockquote.testimonial-story p {
   transform: skewX(-20deg) translateX(0);
   pointer-events: none;
 }
-.header-booking:hover {
-  box-shadow: 0 0 0 2px rgba(230, 190, 116, 0.55), 0 8px 22px rgba(174, 128, 64, 0.28);
-}
 @media (prefers-reduced-motion: no-preference) {
   .header-booking::after {
     animation: cta-shine 5s ease-in-out 1.2s infinite;

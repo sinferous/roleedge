@@ -6,7 +6,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { bookingRequestSchema, fieldErrors } from "@/lib/validation";
 import { site } from "@/lib/site";
 import { Icon } from "@/components/site/Icons";
-import { ConsentField, TextAreaField, TextField } from "@/components/forms/fields";
+import { ConsentField, PhoneField, TextAreaField, TextField } from "@/components/forms/fields";
 import { postJson } from "@/components/forms/post-json";
 import { Turnstile } from "@/components/forms/Turnstile";
 
@@ -18,6 +18,13 @@ const istDate = (date: string, opts: Intl.DateTimeFormatOptions) =>
 const istTime = (iso: string) => new Date(iso).toLocaleTimeString("en-GB", { timeZone: "Asia/Kolkata", hour: "numeric", minute: "2-digit" });
 const longSlot = (iso: string) =>
   new Date(iso).toLocaleString("en-GB", { timeZone: "Asia/Kolkata", weekday: "long", day: "numeric", month: "long", hour: "numeric", minute: "2-digit" }) + " IST";
+
+// Time-of-day groups for the selected day's times, by IST hour.
+const periods: [string, number, number][] = [
+  ["Morning", 0, 12],
+  ["Afternoon", 12, 17],
+  ["Evening", 17, 24],
+];
 
 function addDays(date: string, days: number) {
   const d = new Date(`${date}T00:00:00Z`);
@@ -36,6 +43,7 @@ export function BookingFlow({ services }: { services: ServiceOption[] }) {
   const [firstWeek, setFirstWeek] = useState<string | null>(null);
   const [result, setResult] = useState<{ key: string; weekStart?: string; days?: SlotDay[]; error?: boolean } | null>(null);
   const [slot, setSlot] = useState<string | null>(null);
+  const [pickedDay, setPickedDay] = useState<string | null>(null);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [sending, setSending] = useState(false);
   const [token, setToken] = useState<string>();
@@ -60,6 +68,8 @@ export function BookingFlow({ services }: { services: ServiceOption[] }) {
   const days = current?.days ?? null;
   const loadError = Boolean(current?.error);
   const weekStart = current?.weekStart ?? null;
+  // One day's times show at a time, so the picker stays short; it opens on the first day with times.
+  const day = days?.find((d) => d.date === pickedDay && d.slots.length) ?? days?.find((d) => d.slots.length) ?? null;
 
   useEffect(() => {
     if (step !== 2 || !service) return;
@@ -147,35 +157,57 @@ export function BookingFlow({ services }: { services: ServiceOption[] }) {
           )}
           {!days && !loadError && <p className="field-hint">Loading available times…</p>}
           {days && (
-            <div className="slot-grid">
-              {days.map((day) => (
-                <div className="slot-day" key={day.date}>
-                  <h3>
-                    {istDate(day.date, { weekday: "short" })}
-                    <span>{istDate(day.date, { day: "numeric", month: "short" })}</span>
-                  </h3>
-                  {day.slots.length ? (
-                    <ul>
-                      {day.slots.map((s) => (
-                        <li key={s.start}>
-                          <button
-                            type="button"
-                            className="slot"
-                            aria-pressed={slot === s.start}
-                            aria-label={longSlot(s.start)}
-                            onClick={() => setSlot(s.start)}
-                          >
-                            {istTime(s.start)}
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
-                  ) : (
-                    <p className="slot-empty">No times</p>
-                  )}
+            <>
+              <div className="day-strip" role="group" aria-label="Day">
+                {days.map((d) => (
+                  <button
+                    type="button"
+                    key={d.date}
+                    className="day-tab"
+                    aria-pressed={day?.date === d.date}
+                    disabled={!d.slots.length}
+                    onClick={() => setPickedDay(d.date)}
+                  >
+                    <strong>{istDate(d.date, { weekday: "short" })}</strong>
+                    <span>{istDate(d.date, { day: "numeric", month: "short" })}</span>
+                    <small>{d.slots.length ? `${d.slots.length} ${d.slots.length === 1 ? "time" : "times"}` : "No times"}</small>
+                  </button>
+                ))}
+              </div>
+              {day ? (
+                <div className="slot-periods" aria-live="polite">
+                  {periods.map(([label, from, to]) => {
+                    const slots = day.slots.filter((s) => {
+                      const h = Number(istTime(s.start).split(":")[0]);
+                      return h >= from && h < to;
+                    });
+                    if (!slots.length) return null;
+                    return (
+                      <div className="slot-period" key={label}>
+                        <h3>{label}</h3>
+                        <ul>
+                          {slots.map((s) => (
+                            <li key={s.start}>
+                              <button
+                                type="button"
+                                className="slot"
+                                aria-pressed={slot === s.start}
+                                aria-label={longSlot(s.start)}
+                                onClick={() => setSlot(s.start)}
+                              >
+                                {istTime(s.start)}
+                              </button>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    );
+                  })}
                 </div>
-              ))}
-            </div>
+              ) : (
+                <p className="slot-empty">No times this week. Try the next week.</p>
+              )}
+            </>
           )}
           <div className="booking-actions">
             <button type="button" className="quiz-back" onClick={() => goStep(1)}>
@@ -233,8 +265,8 @@ export function BookingFlow({ services }: { services: ServiceOption[] }) {
               <TextField label="Name" name="name" autoComplete="name" required error={errors.name} />
               <TextField label="Email" name="email" type="email" autoComplete="email" required error={errors.email} />
             </div>
-            <TextField label="Phone" name="phone" type="tel" autoComplete="tel" optional placeholder="+91 98765 43210" error={errors.phone} />
-            <TextAreaField label="Anything we should know?" name="note" optional rows={3} maxLength={1000} hint="For example, a deadline or the firms and schools you’re targeting." error={errors.note} />
+            <PhoneField label="Phone" name="phone" optional error={errors.phone} />
+            <TextAreaField label="Anything we should know?" name="note" optional rows={3} maxLength={1000} error={errors.note} />
             <ConsentField purpose="arrange this call" error={errors.consent} />
             <Turnstile onToken={setToken} />
             {errors.form && (

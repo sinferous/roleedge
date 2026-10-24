@@ -1,34 +1,110 @@
 {
+  "mba-admissions-checklist": {
+    "bytes": 139542,
+    "pages": 10
+  },
+  "university-admissions-checklist": {
+    "bytes": 142924,
+    "pages": 10
+  },
+  "case-interview-guide": {
+    "bytes": 134990,
+    "pages": 9
+  },
+  "consulting-prep-playbook": {
+    "bytes": 136236,
+    "pages": 9
+  },
+  "case-math-workbook": {
+    "bytes": 165087,
+    "pages": 17
+  },
+  "guesstimate-workbook": {
+    "bytes": 156776,
+    "pages": 13
+  },
+  "interview-prep-toolkit": {
+    "bytes": 131041,
+    "pages": 9
+  },
+  "career-storytelling-workbook": {
+    "bytes": 137944,
+    "pages": 10
+  },
+  "resume-and-linkedin-toolkit": {
+    "bytes": 141285,
+    "pages": 9
+  },
+  "salary-negotiation-script-pack": {
+    "bytes": 166629,
+    "pages": 13
+  },
+  "90-day-promotion-plan-workbook": {
+    "bytes": 130039,
+    "pages": 8
+  },
+  "career-pivot-toolkit": {
+    "bytes": 134077,
+    "pages": 9
+  },
+  "career-strategy-playbook": {
+    "bytes": 128718,
+    "pages": 8
+  },
+  "career-stagnation-fix-guide": {
+    "bytes": 133802,
+    "pages": 9
+  },
+  "career-renewal-guide": {
+    "bytes": 128647,
+    "pages": 8
+  },
+  "leadership-development-guide": {
+    "bytes": 127103,
+    "pages": 8
+  },
+  "global-mobility-career-guide": {
+    "bytes": 132808,
+    "pages": 9
+  },
+  "global-mobility-strategy-checklist": {
+    "bytes": 144095,
+    "pages": 10
+  },
+  "returnship-resume-makeover-guide": {
+    "bytes": 138551,
+    "pages": 9
+  },
   "mba-application-planner": {
-    "bytes": 72027,
+    "bytes": 72033,
     "pages": 2
   },
   "why-mba-story-worksheet": {
-    "bytes": 66558,
+    "bytes": 66564,
     "pages": 2
   },
   "mba-interview-prep-sheet": {
-    "bytes": 65017,
+    "bytes": 65023,
     "pages": 1
   },
   "study-abroad-budget-planner": {
-    "bytes": 67355,
+    "bytes": 67361,
     "pages": 2
   },
   "consulting-cv-checklist": {
-    "bytes": 69026,
+    "bytes": 69367,
     "pages": 1
   },
   "case-interview-starter-sheet": {
-    "bytes": 70179,
+    "bytes": 70444,
     "pages": 2
   },
   "90-day-plan-template": {
-    "bytes": 65684,
+    "bytes": 65690,
     "pages": 1
   },
   "career-pivot-map": {
-    "bytes": 63461,
+    "bytes": 63467,
     "pages": 2
   }
 }

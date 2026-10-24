@@ -1,0 +1,442 @@
+{
+  "slug": "university-admissions-checklist",
+  "title": "University Admissions Checklist",
+  "subtitle": "Your Step-by-Step Guide to Winning Admits at Top Global Universities",
+  "sections": [
+    {
+      "title": "Why an Admissions Checklist Matters",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Applying to top universities is overwhelming: multiple deadlines, essays, test scores, and recommendation letters all competing for your attention. Without structure, it’s easy to miss opportunities."
+        },
+        {
+          "t": "p",
+          "text": "An admissions checklist is your **blueprint**—it ensures you don’t just apply, but apply with strategy and excellence. Every top admit—Harvard, Oxford, INSEAD, ISB—requires clarity, storytelling, and discipline."
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Write why you want to pursue higher education—career pivot, leadership growth, or global exposure.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Define Your Target Programs & Career Goals",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Before you chase rankings, get clear on goals."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Do you want consulting post-MBA? Target INSEAD, Kellogg, LBS.",
+            "Do you want finance? Look at Wharton, Columbia, ISB.",
+            "Do you want tech/product? Consider Stanford, Berkeley Haas."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write your short-term (post-program job) and long-term (10-year career vision) goals.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My goal"
+            ],
+            "rows": [
+              [
+                "Short term (first job after the programme)",
+                ""
+              ],
+              [
+                "Long term (10-year vision)",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Shortlisting Universities – Dream, Target, Safety",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Use the **DTS Framework**:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Dream Schools:** Aspirational (Harvard, Oxford, INSEAD).",
+            "**Target Schools:** Competitive but realistic.",
+            "**Safety Schools:** Solid chances of admission."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "List 2–3 universities under each bucket.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Dream",
+              "Target",
+              "Safety"
+            ],
+            "rows": 3
+          }
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Understanding Admission Requirements",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Each university evaluates 4 dimensions:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Academics:** GPA, transcripts.",
+            "**Test Scores:** GMAT, GRE, IELTS/TOEFL.",
+            "**Professional Experience:** Impact, leadership.",
+            "**Application Materials:** Resume, essays, recommendations."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick 1 target school and list its admission requirements.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Requirement",
+              "What the school asks for",
+              "My status"
+            ],
+            "rows": [
+              [
+                "Academics",
+                "",
+                ""
+              ],
+              [
+                "Test scores",
+                "",
+                ""
+              ],
+              [
+                "Experience",
+                "",
+                ""
+              ],
+              [
+                "Resume, essays, recommendations",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Building a Strong Resume for Admissions",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Admissions resumes differ from job resumes. They must highlight:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Leadership & initiative.",
+            "Impact with quantified metrics.",
+            "Academic and extracurricular achievements."
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "Instead of “Worked on audit projects” → “Led 3-member team on Fortune 500 audit, improving reporting accuracy by 15%.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Rewrite one of your resume bullets for admissions.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Crafting Your Personal Statement/Essays",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Essays = storytelling. They answer:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Why this program?",
+            "Why now?",
+            "Why you?"
+          ]
+        },
+        {
+          "t": "lines",
+          "items": [
+            "Framework: Past → Present → Future.",
+            "Example: Past = finance background, Present = interest in ESG, Future = global ESG leader."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 3 sentences connecting your past, present, and future into a story.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My story"
+            ],
+            "rows": [
+              [
+                "Past",
+                ""
+              ],
+              [
+                "Present",
+                ""
+              ],
+              [
+                "Future",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Letters of Recommendation – Strategy & Guidance",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Recommendations should validate your story."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Pick recommenders who **know you**, not just senior titles.",
+            "Provide them a draft with examples of your leadership.",
+            "Ensure consistency with your essays."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "List 2 people who can write authentic recommendations for you.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Recommender",
+              "How they know me"
+            ],
+            "rows": 2
+          }
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Preparing for Standardized Tests",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**GMAT/GRE:** Practise quant and verbal daily. Aim at or above the median in each school’s latest class profile.",
+            "**IELTS/TOEFL:** Focus on fluency + writing clarity.",
+            "Start prep at least 6–9 months before deadlines."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write your target GMAT/GRE score and exam date.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Test",
+              "Target score",
+              "Exam date"
+            ],
+            "rows": [
+              [
+                "GMAT / GRE",
+                "",
+                ""
+              ],
+              [
+                "IELTS / TOEFL (if needed)",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Application Timelines & Deadlines",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Typical timelines:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Round 1: September–October.",
+            "Round 2: January–February.",
+            "Round 3: around April."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Create a 12-month calendar marking test dates, essay deadlines, and application submissions.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Month",
+              "Tests",
+              "Essays",
+              "Submissions"
+            ],
+            "rows": 12,
+            "widths": [
+              16,
+              28,
+              28,
+              28
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 8"
+    },
+    {
+      "title": "Preparing for Admissions Interviews",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Universities test: communication, clarity, fit.",
+            "Common questions:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Why MBA/Masters now?",
+            "Why this school?",
+            "Tell me about a leadership experience."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Record yourself answering 1 question. Time yourself—stay under 2 minutes.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 9"
+    },
+    {
+      "title": "Financing Your Education",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Options:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Scholarships:** Merit, need-based.",
+            "**Loans:** Prodigy Finance, MPower, local banks.",
+            "**Grants:** Some universities provide research or assistantship roles."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 2 scholarship/loan options you’d explore.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ],
+      "eyebrow": "Step 10"
+    },
+    {
+      "title": "Worked examples",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "**An Indian business school admit:** Riya, a chartered accountant from a Big Four firm, refined her essays around her leadership impact. She won an admit with a scholarship.",
+            "**A UK MBA admit:** Arjun, a former strategy consulting analyst, reframed his resume and essays around his social impact goals, and prepared hard for the interview."
+          ]
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Clarity + Storytelling + Proof of Impact wins."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes and Your 90-Day Plan",
+      "blocks": [
+        {
+          "t": "avoid",
+          "items": [
+            "Copy-pasting essays across schools.",
+            "Overemphasizing GPA while ignoring leadership.",
+            "Missing deadlines by poor planning."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Days 1–30",
+              "Shortlist + Resume."
+            ],
+            [
+              "Days 31–60",
+              "Essays + Recommendations."
+            ],
+            [
+              "Days 61–90",
+              "Interview prep + submissions."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

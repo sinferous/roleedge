@@ -16,6 +16,7 @@ export const sourceLabel: Record<string, string> = {
   contact_form: "Contact form",
   booking: "Call request",
   planner: "Planner",
+  resource: "Free resource",
 };
 
 export const serviceLabel: Record<string, string> = {

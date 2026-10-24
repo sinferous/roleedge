@@ -1,0 +1,419 @@
+{
+  "slug": "resume-and-linkedin-toolkit",
+  "title": "Resume & LinkedIn Toolkit",
+  "subtitle": "How to Build a Career Brand That Gets Noticed and Shortlisted",
+  "sections": [
+    {
+      "title": "Why Resumes and LinkedIn Are Your Career Brand",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your resume and LinkedIn are not documents—they’re your **career storefront.** Before recruiters speak with you, they look at these two things. A polished resume gets you interviews; a strong LinkedIn gets you discovered."
+        },
+        {
+          "t": "p",
+          "text": "Think of it as inbound vs outbound marketing:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Resume = outbound → you apply.",
+            "LinkedIn = inbound → recruiters find you."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Which one is currently stronger for you—resume or LinkedIn?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Resume Basics: Structure & Format That Work Globally",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Recruiters often spend **only seconds** on a first resume scan. Keep it clean:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Font: Calibri/Arial, 11–12 pt.",
+            "Length: 1 page (US, UK), 2 pages (Europe, India for >8 years exp).",
+            "Sections: Summary, Experience, Education, Skills, Certifications."
+          ]
+        },
+        {
+          "t": "avoid",
+          "items": [
+            "Don’t include photos, DOB, marital status (except where required like Germany)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Audit your resume for formatting errors. Note the three biggest fixes.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ]
+    },
+    {
+      "title": "Crafting a Powerful Professional Summary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your summary = your elevator pitch. It must:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Highlight years of experience.",
+            "Mention industries and skills.",
+            "Position you for target roles."
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "“Strategy consultant with 7 years’ experience across two global consulting firms, specializing in digital transformation and market entry. MBA from Warwick. Seeking leadership roles in consulting or corporate strategy.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a 3-sentence professional summary.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Writing Impact-Driven Bullet Points",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The difference between a weak resume and a strong one is **impact.**"
+        },
+        {
+          "t": "compare",
+          "rows": [
+            [
+              "Weak",
+              "“Worked on client presentations.”"
+            ],
+            [
+              "Strong",
+              "“Developed client presentations on digital strategy, influencing a $25M implementation.”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Formula = Action Verb + Task + Impact + Number."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Rewrite 1 bullet from your resume with measurable results.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My bullet"
+            ],
+            "rows": [
+              [
+                "Before",
+                ""
+              ],
+              [
+                "After",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Resume Do’s and Don’ts for Consulting, Finance, and Tech",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Consulting:** Highlight problem-solving, frameworks, client impact.",
+            "**Finance:** Emphasize modeling, valuations, transactions.",
+            "**Tech:** Showcase product ownership, data-driven decisions, coding/project tools."
+          ]
+        },
+        {
+          "t": "compare",
+          "rows": [
+            [
+              "Don’t",
+              "list generic skills like “hardworking.”"
+            ],
+            [
+              "Do",
+              "quantify every bullet."
+            ]
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick 1 bullet and tailor it for a consulting OR finance OR tech role.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "LinkedIn Basics: Headline, Summary, and Experience",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your LinkedIn headline is SEO gold."
+        },
+        {
+          "t": "compare",
+          "rows": [
+            [
+              "Bad",
+              "“Analyst at Deloitte.”"
+            ],
+            [
+              "Good",
+              "“Strategy Consultant | Digital Transformation | Ex-Deloitte | MBA Warwick.”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Your summary should be future-facing."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write one headline that positions you for your dream role.",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "title": "Optimizing LinkedIn for Recruiter Search (Keywords + SEO)",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "LinkedIn works like Google. Recruiters search with keywords: “Data Analyst SQL Python.” If those words aren’t in your profile, you won’t show up."
+        },
+        {
+          "t": "p",
+          "text": "Tips:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Use keywords in headline, summary, skills.",
+            "Add the skills that matter for your target role (LinkedIn allows up to 100).",
+            "Endorse colleagues, get endorsements back."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Search a dream job description. Extract 5 keywords and add them to your LinkedIn profile.",
+          "lines": 4,
+          "numbered": 5
+        }
+      ]
+    },
+    {
+      "title": "Building Social Proof: Recommendations & Endorsements",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Recommendations = credibility. Get them from managers, clients, colleagues."
+        },
+        {
+          "t": "example",
+          "items": [
+            "“Priya rebuilt our reporting process in three months and made every client review easier to run. She is the analyst I’d hire again first.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Ask 1 ex-colleague for a LinkedIn recommendation today.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Showcasing Projects, Publications, and Thought Leadership",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "LinkedIn allows you to feature:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Projects (consulting cases, strategy reports).",
+            "Certifications.",
+            "Publications/blogs."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "This makes you **more than just a job title.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Add 1 project to your LinkedIn “Featured” section.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Personal Branding on LinkedIn: Posts & Articles",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Posting regularly builds brand. Content ideas:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Career learnings.",
+            "Industry insights.",
+            "Case prep tips.",
+            "Personal milestones (MBA admit, job offer)."
+          ]
+        },
+        {
+          "t": "callout",
+          "label": "Remember",
+          "text": "Consistency beats virality."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Draft 1 post idea you could share this week.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Resume Templates (Chronological, Functional, Hybrid)",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Chronological:** Best for linear careers.",
+            "**Functional:** Best for career breaks/pivots.",
+            "**Hybrid:** Best overall—skills + timeline."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Pick 1 format and explain why it suits you.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "LinkedIn Optimization Checklist",
+      "blocks": [
+        {
+          "t": "check",
+          "items": [
+            "Headline = targeted + keyword-rich.",
+            "Summary = story + career goals.",
+            "Experience = quantified bullets.",
+            "Skills = relevant and endorsed.",
+            "Recommendations = 2–3 strong ones."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Score your profile from 1 to 10 on each element, and note one fix.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Element",
+              "Score (1–10)",
+              "One fix"
+            ],
+            "rows": [
+              [
+                "Headline",
+                "",
+                ""
+              ],
+              [
+                "Summary",
+                "",
+                ""
+              ],
+              [
+                "Experience",
+                "",
+                ""
+              ],
+              [
+                "Skills",
+                "",
+                ""
+              ],
+              [
+                "Recommendations",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Worked examples",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "**Resume rewrite:** Aarav’s generic Big Four resume was reframed with quantified bullets, and he was shortlisted by a strategy consulting firm."
+        },
+        {
+          "t": "p",
+          "text": "**LinkedIn branding:** Sarah rewrote her headline and shared five posts on fintech, and recruiters from large tech companies started reaching out."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Your 90-Day Resume and LinkedIn Plan",
+      "blocks": [
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Weeks 1–4",
+              "Rewrite your resume bullets"
+            ],
+            [
+              "Weeks 5–8",
+              "Optimise LinkedIn for search"
+            ],
+            [
+              "Weeks 9–12",
+              "Post regularly and collect recommendations"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

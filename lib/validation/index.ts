@@ -79,6 +79,16 @@ export const plannerEmailSchema = z.object({
 });
 export type PlannerEmailInput = z.infer<typeof plannerEmailSchema>;
 
+export const resourceDownloadSchema = z.object({
+  resource: z.string().trim().min(1).max(80),
+  name,
+  email,
+  consent,
+  consentTextVersion,
+  turnstileToken,
+});
+export type ResourceDownloadInput = z.infer<typeof resourceDownloadSchema>;
+
 export const leadStatuses = ["new", "contacted", "qualified", "closed", "spam"] as const;
 export const bookingStatuses = ["requested", "confirmed", "declined", "cancelled", "completed"] as const;
 

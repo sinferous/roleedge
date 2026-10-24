@@ -1,10 +1,11 @@
 import Link from "next/link";
-import { Download } from "lucide-react";
 import type { Resource } from "@/lib/content/resources";
 import downloads from "@/lib/content/downloads.generated.json";
+import { DownloadButton } from "./DownloadButton";
 import { LearnChevron } from "./Icons";
 
-// One free download as a folder card: page one peeking out, what's inside, and the Download button.
+// One free download as a folder card: page one peeking out, what's inside, and the Download button,
+// which asks for a name and email the first time (DownloadButton).
 // Used on /resources and on the study abroad and career pages.
 const meta = downloads as Record<string, { bytes: number; pages: number }>;
 
@@ -35,10 +36,7 @@ export function ResourceFolder({ resource: r, currentPath }: { resource: Resourc
           ))}
         </ul>
         <div className="resource-actions">
-          <a className="button button-small button-dark" href={`/downloads/${r.slug}.pdf`} download aria-label={`Download ${r.title} (${info})`}>
-            <Download aria-hidden="true" size={16} strokeWidth={2} />
-            Download
-          </a>
+          <DownloadButton slug={r.slug} title={r.title} info={info} />
           {r.related && r.related.href !== currentPath && (
             <Link className="t-learn" href={r.related.href}>
               {r.related.label}

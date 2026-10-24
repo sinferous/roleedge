@@ -21,6 +21,7 @@ export default async function BlogPage() {
             From the <span className="accent">blog.</span>
           </>
         }
+        backdrop="/assets/blog-hero.jpg"
         lead="Notes on case interviews, career moves and doing the work that gets you to the next level."
       />
       <section className="articles-section" aria-label="Articles">

@@ -1,0 +1,322 @@
+{
+  "slug": "90-day-promotion-plan-workbook",
+  "title": "90-Day Promotion Plan Workbook",
+  "subtitle": "A Step-by-Step Roadmap to Your Next Role",
+  "sections": [
+    {
+      "title": "Why Promotions Don’t Just Happen",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Many professionals believe if they “work hard,” promotions will follow. Reality check: promotions are **strategic decisions**, not just performance outcomes. Managers promote those who **add visible business value, manage relationships, and position themselves as leaders.**"
+        },
+        {
+          "t": "p",
+          "text": "Many talented professionals plateau, not from lack of skill, but from lack of strategy. Promotions aren’t automatic—they’re **earned and orchestrated.**"
+        }
+      ]
+    },
+    {
+      "title": "The 90-Day Framework Explained",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Think of promotions as **campaigns**. Just like a political campaign has strategy, messaging, and execution, your promotion plan needs structure."
+        },
+        {
+          "t": "p",
+          "text": "The 90-day model breaks into 3 phases:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Phase 1 (Learn & Listen):** Build credibility.",
+            "**Phase 2 (Deliver & Demonstrate):** Prove measurable impact.",
+            "**Phase 3 (Lead & Position):** Show leadership and readiness."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Learn & Listen",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your first 30 days are not about being a “hero.” They’re about absorbing:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Understand company priorities.",
+            "Build relationships with managers and peers.",
+            "Listen more than you speak."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "List the top 5 goals of your team.",
+          "lines": 4,
+          "numbered": 5
+        }
+      ],
+      "eyebrow": "Phase 1 (Days 1–30)"
+    },
+    {
+      "title": "Deliver & Demonstrate Value",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "This is where you **prove impact**. Focus on 2–3 visible wins."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Lead a small project.",
+            "Solve a problem your boss cares about.",
+            "Track impact with numbers (time saved, revenue, efficiency)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Document 2 measurable contributions you can highlight.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ],
+      "eyebrow": "Phase 2 (Days 31–60)"
+    },
+    {
+      "title": "Lead & Position for Promotion",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Now you shift from contributor to **leader-in-waiting.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Mentor juniors.",
+            "Volunteer for stretch assignments.",
+            "Present in leadership meetings.",
+            "Share credit generously."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Write 3 ways you’ll demonstrate leadership beyond your role.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ],
+      "eyebrow": "Phase 3 (Days 61–90)"
+    },
+    {
+      "title": "Scripted Conversations With Managers",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Promotions aren’t just performance—they’re conversations.",
+            "**Sample Script:**",
+            "“Over the past 60 days, I’ve contributed to [X project] and delivered [Y impact]. I’d love to discuss what additional responsibilities I can take on to prepare for a promotion in the next cycle.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Draft your own script for your next 1:1.",
+          "lines": 6
+        }
+      ]
+    },
+    {
+      "title": "Building Internal Champions",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Promotions are rarely decided by one manager alone. Often, a “promotion panel” or skip-level boss weighs in. That’s why you need **internal champions.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Build credibility with peers.",
+            "Offer help before you ask for help.",
+            "Create allies in other departments."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "List 3 people who can influence your promotion and how you’ll build rapport.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Person",
+              "Their influence",
+              "How I’ll build rapport"
+            ],
+            "rows": 3
+          }
+        }
+      ]
+    },
+    {
+      "title": "Tracking Impact With Metrics",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Numbers speak louder than effort."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Document hours saved, revenue generated, or clients retained.",
+            "Translate work into **business terms.**",
+            "Create a 1-pager summary by Day 75."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down 3 KPIs you’ll track.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "KPI",
+              "Today",
+              "Target by day 90"
+            ],
+            "rows": 3
+          }
+        }
+      ]
+    },
+    {
+      "title": "Balancing Visibility vs Humility",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Promotion is a visibility game, but arrogance kills goodwill."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Share wins in team forums, not just with your boss.",
+            "Use “we” more than “I.”",
+            "Let your work speak first, your words second."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "How can you showcase achievements without over-self-promotion?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "A 90-day plan in practice",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Riya, an analyst at a Big Four firm, didn’t wait for her annual review. She followed a 90-day plan:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Identified inefficiencies in reporting → automated templates.",
+            "Saved 8 hours weekly → showcased to leadership.",
+            "Documented wins in a concise deck."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Result: her manager put her forward for promotion at the next review cycle."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "The Role of Feedback Loops",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Feedback accelerates growth."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Ask for feedback at 30, 60, and 90 days.",
+            "Show you’ve applied it.",
+            "Managers reward adaptability."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 2 feedback questions to ask your manager this week.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ]
+    },
+    {
+      "title": "Common Mistakes Professionals Make",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Waiting passively for recognition.",
+            "Focusing only on effort, not results.",
+            "Overloading with tasks instead of strategic contributions.",
+            "Ignoring networking."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Which mistake resonates most with you? How will you avoid it?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Final Checklist",
+      "blocks": [
+        {
+          "t": "check",
+          "items": [
+            "Did you deliver measurable wins?",
+            "Do you have at least 1–2 internal champions?",
+            "Have you initiated promotion conversations?",
+            "Do you have a documented record of impact?"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "If you can tick all four, you’re ready for the promotion conversation."
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Days 1–30",
+              "Learn and listen: priorities, relationships, the team’s top goals"
+            ],
+            [
+              "Days 31–60",
+              "Deliver two or three visible wins and track them in numbers"
+            ],
+            [
+              "Days 61–90",
+              "Lead beyond your role and start the promotion conversation"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

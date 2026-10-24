@@ -1,9 +1,10 @@
 // Free downloads on /resources. One source for both the page and the PDFs:
 // `npm run build:downloads` renders each entry to public/downloads/<slug>.pdf plus a cover image.
 // This file has no imports so the Node build script can load it directly.
-// TODO(content): every resource is a draft until Mayank reviews it; set `confirmed: true` per item.
+// The guides and workbooks come from RoleEdge's own drafts and are shown in production.
+// TODO(content): the short worksheets are drafts until Mayank reviews them; set `confirmed: true` per item.
 
-export type ResourceTrack = "study-abroad" | "career";
+export type ResourceTrack = "study-abroad" | "consulting" | "career";
 
 export type ResourceBlock =
   | { kind: "steps"; heading: string; items: { title: string; body: string }[] }
@@ -20,15 +21,180 @@ export type Resource = {
   inside: string[];
   related?: { href: string; label: string };
   confirmed: boolean;
-  blocks: ResourceBlock[];
+  /** Short worksheets only. Guides are rendered from content/guides/<slug>.json instead. */
+  blocks?: ResourceBlock[];
 };
 
-export const resourceTracks: { slug: ResourceTrack; title: string; lead: string }[] = [
-  { slug: "study-abroad", title: "For study abroad", lead: "Plan the year, then find the story your application tells." },
-  { slug: "career", title: "For your career", lead: "Get ready for interviews, a new role, or a change of direction." },
+// `label` is the short name printed on the PDFs.
+export const resourceTracks: { slug: ResourceTrack; title: string; label: string; lead: string }[] = [
+  { slug: "study-abroad", title: "For study abroad", label: "Study abroad", lead: "Plan the year, then find the story your application tells." },
+  { slug: "consulting", title: "For consulting interviews", label: "Consulting prep", lead: "Cases, guesstimates and case math, with room to work every problem." },
+  { slug: "career", title: "For your career", label: "Career", lead: "Get ready for interviews, a new role, or a change of direction." },
 ];
 
 export const resources: Resource[] = [
+  // Guides and workbooks
+  {
+    slug: "mba-admissions-checklist",
+    title: "MBA admissions checklist",
+    track: "study-abroad",
+    summary: "Ten steps from goals and school list to essays, recommenders, tests, interviews and funding, with space to plan each one.",
+    inside: ["Dream, target and safety school table", "12-month application calendar", "90-day plan"],
+    related: { href: "/study-abroad", label: "Study abroad guidance" },
+    confirmed: true,
+  },
+  {
+    slug: "university-admissions-checklist",
+    title: "University admissions checklist",
+    track: "study-abroad",
+    summary: "The same step-by-step approach for master’s and other postgraduate programmes abroad, from shortlist to scholarships.",
+    inside: ["Requirements tracker for your target school", "Past, present and future essay planner", "12-month calendar"],
+    related: { href: "/study-abroad", label: "Study abroad guidance" },
+    confirmed: true,
+  },
+  {
+    slug: "case-interview-guide",
+    title: "Case interview guide",
+    track: "consulting",
+    summary: "How a case works and the frameworks for profitability, market entry, M&A and operations, with mini cases to solve.",
+    inside: ["Four core frameworks", "Mini cases with working space", "Five practice cases"],
+    related: { href: "/blog/profitability-case-interview-complete-guide-with-examples", label: "Read the profitability case guide" },
+    confirmed: true,
+  },
+  {
+    slug: "consulting-prep-playbook",
+    title: "Consulting prep playbook",
+    track: "consulting",
+    summary: "Everything a consulting interview tests, from the consultant’s mindset and the main case types to the fit interview.",
+    inside: ["Case types with mini cases", "PEI story planner", "12-week prep plan"],
+    related: { href: "/career", label: "Career guidance" },
+    confirmed: true,
+  },
+  {
+    slug: "case-math-workbook",
+    title: "Case math workbook",
+    track: "consulting",
+    summary: "Percentages, breakevens, margins, CAGR and capacity, explained with examples, then 40 practice questions with answers.",
+    inside: ["Formulas and mental-math shortcuts", "40 questions with working space", "Answer key"],
+    confirmed: true,
+  },
+  {
+    slug: "guesstimate-workbook",
+    title: "Guesstimate workbook",
+    track: "consulting",
+    summary: "A four-step method for market sizing, 45 practice questions, and printable worksheets to solve them on.",
+    inside: ["The four-step method", "45 practice questions", "Three guesstimate worksheets"],
+    confirmed: true,
+  },
+  {
+    slug: "interview-prep-toolkit",
+    title: "Interview prep toolkit",
+    track: "career",
+    summary: "How interviewers think, your two-minute pitch, behavioural and technical questions, and the questions to ask them.",
+    inside: ["Pitch and STAR story planners", "Story bank table", "90-day interview plan"],
+    related: { href: "/career", label: "Career guidance" },
+    confirmed: true,
+  },
+  {
+    slug: "career-storytelling-workbook",
+    title: "Career storytelling workbook",
+    track: "career",
+    summary: "Turn your experience into interview stories with STAR: five story types, each with space to write your own.",
+    inside: ["STAR story planner", "Five stories to draft", "Story bank and delivery checklist"],
+    confirmed: true,
+  },
+  {
+    slug: "resume-and-linkedin-toolkit",
+    title: "Resume and LinkedIn toolkit",
+    track: "career",
+    summary: "Format, summary and impact bullets for your resume, then a LinkedIn profile that recruiters can find.",
+    inside: ["Before-and-after bullet rewrites", "LinkedIn scorecard", "90-day plan"],
+    confirmed: true,
+  },
+  {
+    slug: "salary-negotiation-script-pack",
+    title: "Salary negotiation script pack",
+    track: "career",
+    summary: "Five scripts for the recruiter call, a low offer, a counter, a competing offer and benefits, with space to write your own.",
+    inside: ["Five scripts to adapt", "Recruiter tactics and how to handle them", "Pre-negotiation worksheet"],
+    confirmed: true,
+  },
+  {
+    slug: "90-day-promotion-plan-workbook",
+    title: "90-day promotion plan workbook",
+    track: "career",
+    summary: "Three 30-day phases to learn, deliver and lead, with the manager conversation and the metrics to track.",
+    inside: ["Phase-by-phase prompts", "Champions and KPI tables", "Readiness checklist"],
+    related: { href: "/blog/the-90-day-promotion-plan-how-to-fast-track-your-career", label: "Read the 90-day promotion plan" },
+    confirmed: true,
+  },
+  {
+    slug: "career-pivot-toolkit",
+    title: "Career pivot toolkit",
+    track: "career",
+    summary: "Change direction without starting over: pick the target role, map your transferable skills and tell your pivot story.",
+    inside: ["Transferable skills table", "Pivot story planner", "90-day pivot plan"],
+    related: { href: "/blog/career-pivot-playbook-switch-roles-without-starting-over", label: "Read the career pivot playbook" },
+    confirmed: true,
+  },
+  {
+    slug: "career-strategy-playbook",
+    title: "Career strategy playbook",
+    track: "career",
+    summary: "Set a long-term vision, the milestones on the way, and the strengths, network and skills to get there.",
+    inside: ["Vision and milestone planner", "Strengths feedback table", "90-day plan"],
+    confirmed: true,
+  },
+  {
+    slug: "career-stagnation-fix-guide",
+    title: "Career stagnation fix guide",
+    track: "career",
+    summary: "Spot the signs of a plateau, find out whether the gap is skills, visibility or fit, and plan your way out.",
+    inside: ["Plateau checklist", "Skills audit against your target role", "90-day plan"],
+    confirmed: true,
+  },
+  {
+    slug: "career-renewal-guide",
+    title: "Career renewal guide",
+    track: "career",
+    summary: "Nine steps to restart your growth when you feel stuck, from resetting your goals to rebuilding confidence.",
+    inside: ["Root-cause and goal planners", "Mentor and network prompts", "90-day renewal plan"],
+    confirmed: true,
+  },
+  {
+    slug: "leadership-development-guide",
+    title: "Leadership development guide",
+    track: "career",
+    summary: "Build influence before the title: your leadership style, communication, EQ, decisions and executive presence.",
+    inside: ["Leadership philosophy prompts", "An exercise for each skill", "90-day leadership plan"],
+    confirmed: true,
+  },
+  {
+    slug: "global-mobility-career-guide",
+    title: "Global mobility career guide",
+    track: "career",
+    summary: "Plan an international career: choose countries, research visas, adapt your resume and settle in.",
+    inside: ["Country and visa research tables", "Relocation planner", "90-day plan"],
+    confirmed: true,
+  },
+  {
+    slug: "global-mobility-strategy-checklist",
+    title: "Global mobility strategy checklist",
+    track: "career",
+    summary: "A checklist for moving abroad for work, from visa options and a localised resume to comparing pay packages.",
+    inside: ["Visa research table", "Gross vs net pay worksheet", "90-day plan"],
+    confirmed: true,
+  },
+  {
+    slug: "returnship-resume-makeover-guide",
+    title: "Returnship resume makeover guide",
+    track: "career",
+    summary: "Return after a career break with a resume that shows what you did with the time and what you bring now.",
+    inside: ["Three summary versions to draft", "Break and project bullet prompts", "ATS keyword check"],
+    confirmed: true,
+  },
+
+  // Short worksheets
   {
     slug: "mba-application-planner",
     title: "MBA application planner",
@@ -200,7 +366,7 @@ export const resources: Resource[] = [
   {
     slug: "consulting-cv-checklist",
     title: "Consulting CV checklist",
-    track: "career",
+    track: "consulting",
     summary: "Twenty checks to run before your CV goes to a consulting firm, from layout to the last full stop.",
     inside: ["Structure and layout", "Bullets that show impact", "Final proofreading pass"],
     related: { href: "/career", label: "Career guidance" },
@@ -255,7 +421,7 @@ export const resources: Resource[] = [
   {
     slug: "case-interview-starter-sheet",
     title: "Case interview starter sheet",
-    track: "career",
+    track: "consulting",
     summary: "The shape of a case interview on one sheet, with the profitability tree and a closing template.",
     inside: ["The four parts of a case", "Profitability and market-entry questions", "A summary template"],
     related: { href: "/blog/profitability-case-interview-complete-guide-with-examples", label: "Read the profitability case guide" },

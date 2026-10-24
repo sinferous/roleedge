@@ -1,0 +1,316 @@
+{
+  "slug": "case-interview-guide",
+  "title": "Case Interview Guide",
+  "subtitle": "Frameworks, Practice, and Confidence to Crack Consulting Interviews",
+  "sections": [
+    {
+      "title": "Why Case Interviews Matter",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Consulting interviews are unlike standard job interviews. They test how you **think, structure, and communicate.** Recruiters want to see:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Logical problem-solving.",
+            "Comfort with ambiguity.",
+            "Business intuition + math."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "It’s not about knowing the “right answer.” It’s about your **framework and clarity.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down 2 reasons why you want to join consulting.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ]
+    },
+    {
+      "title": "Anatomy of a Case Interview",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A case has 4 parts:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Prompt:** Client problem statement.",
+            "**Clarifying Questions:** Show curiosity & structure.",
+            "**Framework:** Lay out approach (MECE).",
+            "**Analysis & Recommendation:** Do math + give final recommendation."
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "“A hotel chain’s profits are declining. Diagnose and recommend.”"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The MECE Mindset for Structuring",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "MECE = Mutually Exclusive, Collectively Exhaustive."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Profitability = Revenues vs Costs.",
+            "Market Entry = Market, Competition, Customers, Product, Financials."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Take the prompt “Client wants to enter EV market.” Write a MECE breakdown.",
+          "lines": 6
+        }
+      ]
+    },
+    {
+      "title": "Profitability Framework",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "When profits drop, check:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Revenues:** Price, volume, product mix.",
+            "**Costs:** Fixed vs variable.",
+            "**External factors:** Regulations, competitors."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Mini Case",
+          "text": "A gym chain’s profit margins fall despite constant membership. What do you check first?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Market Entry Framework",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Market entry = Is it attractive, and can we win?"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Market Attractiveness:** Size, growth, profitability.",
+            "**Competitive Landscape:** Players, market share.",
+            "**Client Capabilities:** Brand, resources, distribution.",
+            "**Entry Strategy:** Build, buy, or partner."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Mini Case",
+          "text": "An FMCG firm wants to enter bottled water in Vietnam. What factors do you analyze?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "M&A & Synergy Framework",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "M&A cases test valuation + synergies."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Strategic Fit:** Why buy?",
+            "**Synergies:** Revenue ↑ or costs ↓.",
+            "**Risks:** Culture, integration, regulation."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Mini Case",
+          "text": "A tech firm wants to acquire a smaller AI startup. How do you assess value?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Operations & Supply Chain Framework",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Ops cases test efficiency."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Supply side:** Procurement, production.",
+            "**Process side:** Bottlenecks, utilization.",
+            "**Delivery side:** Logistics, distribution."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Mini Case",
+          "text": "A factory runs at 60% utilization. What steps to improve efficiency?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Guesstimates & Market Sizing",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Guesstimates test structured thinking. Example: Estimate Uber rides/day in Delhi."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Population → % using Uber → Avg. rides."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Clear segmentation + assumptions = strong answer."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Estimate toothpaste market size in India.",
+          "lines": 6
+        }
+      ]
+    },
+    {
+      "title": "Case Math: Margins, Breakevens, CAGR",
+      "blocks": [
+        {
+          "t": "example",
+          "items": [
+            "Revenue = ₹100 Cr, Costs = ₹70 Cr → Profit Margin = 30%.",
+            "BEP = Fixed Costs ÷ Contribution Margin.",
+            "CAGR = (End/Start)^(1/n) – 1."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "A firm’s revenue grew from $100M to $200M in 3 years. What’s the CAGR? (Answer: about 26%.)",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Communication & Hypothesis-Driven Thinking",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Case success = structure + clarity. Always:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Start with hypothesis (“I believe the issue is pricing.”).",
+            "Test hypothesis with data.",
+            "Pivot when evidence contradicts."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a hypothesis for: “A restaurant’s revenues are declining.”",
+          "lines": 3
+        }
+      ]
+    },
+    {
+      "title": "Five Practice Cases",
+      "blocks": [
+        {
+          "t": "questions",
+          "items": [
+            "**Retail:** Clothing retailer’s sales flat. Diagnose.",
+            "**Banking:** Bank wants to launch credit cards. Analyze.",
+            "**Healthcare:** Pharma firm’s drug patent expiring. What next?",
+            "**Tech:** SaaS startup sees customer churn rising. Diagnose.",
+            "**Travel:** Airline sees falling profits despite full planes. Why?"
+          ],
+          "space": "tick"
+        },
+        {
+          "t": "p",
+          "text": "Pick one and solve it in 20 minutes using a MECE structure. Tick each case once you’ve tried it."
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "The case I chose, and my structure:",
+          "lines": 9
+        }
+      ]
+    },
+    {
+      "title": "Worked examples",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "**Profitability case:** The candidate found that logistics made up 60% of costs after fuel price rises, and recommended renegotiating contracts, worth about ₹50 Cr to the client."
+        },
+        {
+          "t": "p",
+          "text": "**Market entry case:** The candidate structured EV entry into Middle East, analyzed regulation + demand. Recommendation: enter UAE first, then scale."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Frameworks + clarity win."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes and a 12-Week Plan",
+      "blocks": [
+        {
+          "t": "avoid",
+          "items": [
+            "Jumping into math before framework.",
+            "Listing random factors without structure.",
+            "Weak recommendations (“It depends”)."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Weeks 1–4",
+              "Framework drills."
+            ],
+            [
+              "Weeks 5–8",
+              "Guesstimates + case math."
+            ],
+            [
+              "Weeks 9–12",
+              "Full mock cases + feedback."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

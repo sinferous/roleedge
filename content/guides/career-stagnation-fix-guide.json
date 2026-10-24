@@ -1,0 +1,318 @@
+{
+  "slug": "career-stagnation-fix-guide",
+  "title": "Career Stagnation Fix Guide",
+  "subtitle": "How to Break Free From Career Plateaus and Accelerate Your Growth",
+  "sections": [
+    {
+      "title": "Understanding Career Stagnation",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Career stagnation happens when you no longer see **growth, learning, or opportunities** in your role. You may still perform well but feel invisible to promotions or recruiters."
+        },
+        {
+          "t": "p",
+          "text": "It’s not about laziness—it’s about being **misaligned with market demand.** In fast-changing industries like consulting, finance, or tech, staying still = falling behind."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down how long you’ve been in your current role. Are you growing, plateauing, or declining?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Signs You’re Stuck in a Career Plateau",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Common red flags:"
+        },
+        {
+          "t": "check",
+          "items": [
+            "No promotions or role changes in 3+ years.",
+            "Salary growth stagnates despite effort.",
+            "Your work feels repetitive, with no new challenges.",
+            "Recruiters stop approaching you.",
+            "You’ve lost excitement about learning."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Tick the signs you relate to above. More than three suggests you’ve plateaued. Which one worries you most?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "The Hidden Costs of Staying Stagnant",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Career stagnation drains more than your paycheck:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Financial Cost:** You miss out on raises/bonuses compounding over years.",
+            "**Reputation Cost:** Being “too comfortable” signals lack of ambition.",
+            "**Emotional Cost:** Burnout, frustration, and loss of motivation."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write how stagnation has impacted your finances or confidence.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Diagnose the Root Cause",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Stagnation comes from different sources:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Skill Gaps:** Industry moved, you didn’t.",
+            "**Visibility Gaps:** You do good work but lack recognition.",
+            "**Fit Gaps:** Wrong industry or role for your strengths."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Which gap do you think applies to you—Skill, Visibility, or Fit?",
+          "lines": 3
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Redefine Your Career Vision",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "If you don’t know where you want to go, promotions won’t come. Define your **North Star.**"
+        },
+        {
+          "t": "p",
+          "text": "Ask:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "What kind of work excites me?",
+            "What leadership roles do I see myself in 5 years?",
+            "Do I want to grow vertically (promotion) or horizontally (new domain)?"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write your 5-year career vision in 3 sentences.",
+          "lines": 5
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Audit Your Current Skills vs Market Demand",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Look at job postings for your dream roles. Compare your current resume to their requirements. The gaps = roadmap."
+        },
+        {
+          "t": "example",
+          "items": [
+            "Dream role: Product Manager.",
+            "Requirements: SQL, Agile, stakeholder management.",
+            "Your audit: stakeholder management (have it), Agile (partly), SQL (gap)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down 3 skills you need to acquire to reach your target role.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Skill the role needs",
+              "Have it / partly / gap",
+              "How I’ll close the gap"
+            ],
+            "rows": 4
+          }
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Build New Competencies",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Don’t just work harder—work smarter. Upskill in areas that are in **demand.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Consulting: Advanced analytics, digital transformation, AI.",
+            "Finance: ESG, M&A modeling, fintech.",
+            "Tech: Cloud, AI, product frameworks."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Commit to 1 skill you’ll master in the next 90 days.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Rebrand Yourself Professionally",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "If recruiters see you as “the same old employee,” you won’t grow. Rebranding includes:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Resume rewrite (impact bullets, leadership signals).",
+            "LinkedIn refresh (ambitious headline, future-focused summary).",
+            "Thought leadership posts (share industry insights)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a new LinkedIn headline aligned to your 5-year vision.",
+          "lines": 2
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Leverage Networking to Break Plateaus",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Many professionals stagnate because they only rely on performance reviews. The truth: **opportunities come from networks.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Identify mentors in your company.",
+            "Build connections with external recruiters.",
+            "Join webinars and conferences."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down 3 people you’ll reach out to this week.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Internal Mobility vs External Opportunities",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Sometimes growth exists inside your firm—lateral shifts to new projects. Other times, you must move out."
+        },
+        {
+          "t": "p",
+          "text": "Questions to ask:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Can I pivot within my company to a faster-growing team?",
+            "Do I need a role change externally to get unstuck?"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Is your next move internal or external?",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Stagnation Breakthrough in Consulting",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Nikhil, a consultant at a Big Four firm, felt stuck as Senior Associate for 4 years. He audited his skills, realized digital transformation was booming, and took a certification in AI strategy. He refreshed his LinkedIn and networked with recruiters at strategy firms. Within a year, he moved into a **manager role at a strategy consulting firm.**"
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Targeted upskilling + rebranding can break plateaus quickly."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Stagnation Breakthrough in Finance",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Sarah, an analyst at a global bank, was overlooked for promotions. She reframed her resume, started publishing insights on LinkedIn about ESG, and got noticed by recruiters. Within a year, she transitioned into an ESG finance role with a significant pay rise."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Visibility can be as critical as competence."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes and Your 90-Day Plan",
+      "blocks": [
+        {
+          "t": "avoid",
+          "items": [
+            "Waiting for “the company” to notice.",
+            "Believing harder work = automatic promotion.",
+            "Ignoring skill + visibility gaps."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Days 1–30",
+              "Diagnose stagnation cause + set vision."
+            ],
+            [
+              "Days 31–60",
+              "Upskill + refresh branding."
+            ],
+            [
+              "Days 61–90",
+              "Network + apply selectively."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

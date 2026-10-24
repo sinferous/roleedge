@@ -7,7 +7,7 @@ import { ResourceFolder } from "@/components/site/ResourceFolder";
 
 export const metadata: Metadata = {
   title: "Free resources",
-  description: "Free planners, checklists and worksheets for MBA applications, consulting interviews and career moves, from RoleEdge.",
+  description: "Free guides, workbooks and worksheets for MBA applications, consulting interviews and career moves, from RoleEdge. Print them and fill them in.",
   alternates: { canonical: "/resources" },
 };
 
@@ -23,10 +23,10 @@ export default function ResourcesPage() {
             Free tools for your <span className="accent">next step.</span>
           </>
         }
-        lead="Planners, checklists and worksheets to print and fill in. Use them on your own, or bring them to your first call."
+        backdrop="/assets/resources-hero.jpg"
+        lead="Guides, workbooks and checklists to print and fill in, each with space to write. Free with your email, to use on your own or bring to your first call."
       >
         <ul className="resource-promises">
-          <li>Free, no sign-up</li>
           <li>Made for printing</li>
           <li>Free to share</li>
         </ul>

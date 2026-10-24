@@ -1,17 +1,21 @@
 // Renders every entry in lib/content/resources.ts to a printable PDF in public/downloads, plus a
 // cover image of page one for the /resources cards, and writes sizes and page counts to
 // lib/content/downloads.generated.json. Run with `npm run build:downloads` after editing resources.
+// Short worksheets are built from their `blocks`; long guides from content/guides/<slug>.json.
 // Uses the Chromium that Playwright already installed, so it needs no extra packages.
 
-import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { chromium } from "@playwright/test";
 import { resources, resourceTracks } from "../lib/content/resources.ts";
+import { guideTemplate } from "./guide-pdf.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const outDir = join(root, "public", "downloads");
+const guides = guideTemplate(root);
+const guideFile = (slug) => join(root, "content", "guides", `${slug}.json`);
 const asset = (p) => pathToFileURL(join(root, "public", "assets", p)).href;
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -84,12 +88,16 @@ function block(b) {
   }
 }
 
-function html(r, screen) {
+function trackLabel(r) {
   const track = resourceTracks.find((t) => t.slug === r.track);
-  const label = track.title.replace(/^For /, "").replace(/^your /, "");
+  return track.label;
+}
+
+function html(r, screen) {
+  const label = trackLabel(r);
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${esc(r.title)} | RoleEdge</title><style>${css}</style></head>
 <body class="${screen ? "screen" : ""}">
-<div class="top"><div class="brand"><img src="${asset("roleedge-mark.png")}" alt=""><b>Role<span class="edge">Edge</span><span class="dot">.</span></b></div><span>${esc(label[0].toUpperCase() + label.slice(1))} · Free resource${r.confirmed ? "" : '<span class="draft">Draft</span>'}</span></div>
+<div class="top"><div class="brand"><img src="${asset("roleedge-mark.png")}" alt=""><b>Role<span class="edge">Edge</span><span class="dot">.</span></b></div><span>${esc(label)} · Free resource${r.confirmed ? "" : '<span class="draft">Draft</span>'}</span></div>
 <h1>${esc(r.title)}</h1>
 <p class="summary">${esc(r.summary)}</p>
 ${r.blocks.map(block).join("\n")}
@@ -103,20 +111,32 @@ const footer = `<div style="width:100%;padding:0 16mm;font:7.5pt sans-serif;colo
 mkdirSync(outDir, { recursive: true });
 const work = mkdtempSync(join(tmpdir(), "roleedge-downloads-"));
 const browser = await chromium.launch({ channel: "chrome" });
-const manifest = {};
+// Pass slugs to rebuild only those, e.g. `npm run build:downloads -- case-math-workbook`.
+const only = process.argv.slice(2);
+const manifestFile = join(root, "lib", "content", "downloads.generated.json");
+const manifest = only.length ? JSON.parse(readFileSync(manifestFile, "utf8")) : {};
 try {
   const page = await browser.newPage({ viewport: { width: 794, height: 1123 } });
-  for (const r of resources) {
+  for (const r of resources.filter((r) => !only.length || only.includes(r.slug))) {
+    const guide = existsSync(guideFile(r.slug)) ? JSON.parse(readFileSync(guideFile(r.slug), "utf8")) : null;
     for (const screen of [false, true]) {
       const file = join(work, `${r.slug}${screen ? "-cover" : ""}.html`);
-      writeFileSync(file, html(r, screen));
+      writeFileSync(file, guide ? guides.html(guide, r, trackLabel(r), screen) : html(r, screen));
       await page.goto(pathToFileURL(file).href, { waitUntil: "load" });
       await page.evaluate(() => document.fonts.ready);
       if (screen) {
         await page.screenshot({ path: join(outDir, `${r.slug}.jpg`), type: "jpeg", quality: 82 });
       } else {
         const pdf = join(outDir, `${r.slug}.pdf`);
-        await page.pdf({ path: pdf, format: "A4", printBackground: true, preferCSSPageSize: true, displayHeaderFooter: true, headerTemplate: "<span></span>", footerTemplate: footer });
+        await page.pdf({
+          path: pdf,
+          format: "A4",
+          printBackground: true,
+          preferCSSPageSize: true,
+          displayHeaderFooter: true,
+          headerTemplate: guide ? guides.header(guide, trackLabel(r)) : "<span></span>",
+          footerTemplate: guide ? guides.footer(guide) : footer,
+        });
         const bytes = readFileSync(pdf);
         const pages = (bytes.toString("latin1").match(/\/Type\s*\/Page(?!s)/g) ?? []).length;
         manifest[r.slug] = { bytes: bytes.length, pages };
@@ -128,4 +148,4 @@ try {
   await browser.close();
   rmSync(work, { recursive: true, force: true });
 }
-writeFileSync(join(root, "lib", "content", "downloads.generated.json"), JSON.stringify(manifest, null, 2) + "\n");
+writeFileSync(manifestFile, JSON.stringify(manifest, null, 2) + "\n");

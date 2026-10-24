@@ -1,0 +1,471 @@
+{
+  "slug": "guesstimate-workbook",
+  "title": "Guesstimate Workbook",
+  "subtitle": "Master Market Sizing and Estimation Questions for Consulting & Strategy Interviews",
+  "sections": [
+    {
+      "title": "Why Guesstimates Matter in Consulting Interviews",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Guesstimates test your ability to **think logically, structure problems, and stay calm under pressure.** Recruiters don’t care if your number is exact—they care about your approach."
+        },
+        {
+          "t": "example",
+          "items": [
+            "If asked “Estimate the number of ATMs in India,” a random guess fails. Segmenting logically (population → banked households → ATM demand per household) impresses."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Consulting firms like McKinsey, BCG, and Bain use guesstimates to filter candidates who can **simplify ambiguity into structure.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write one recent time you had to make a quick estimate at work or in daily life.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "The MECE Framework for Estimation",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "MECE = **Mutually Exclusive, Collectively Exhaustive.** Break problems into non-overlapping parts that together cover the whole."
+        },
+        {
+          "t": "example",
+          "items": [
+            "Estimate pizza consumption in India."
+          ],
+          "list": [
+            "Break by **population** (urban vs rural).",
+            "Break by **frequency** (occasional vs regular eaters).",
+            "Break by **size** (small vs medium vs large)."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "MECE keeps you from double-counting and ensures logical coverage."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick a guesstimate (e.g., number of Uber rides in Mumbai). Write your MECE breakdown.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Break Down Populations and Segments",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Every guesstimate starts with populations. Break them into **manageable, logical buckets.**"
+        },
+        {
+          "t": "example",
+          "items": [
+            "Number of toothpaste tubes sold annually in India."
+          ],
+          "list": [
+            "India’s population ~1.4B.",
+            "Assume 70% urban + semi-urban usage = ~1B people.",
+            "Average person uses 4 tubes a year, so about 4B tubes annually."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick 1 consumer good and estimate annual demand in your city.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Identify Key Drivers & Assumptions",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Assumptions drive estimates. State them clearly."
+        },
+        {
+          "t": "example",
+          "items": [
+            "Estimate number of flights landing in Delhi daily."
+          ],
+          "list": [
+            "Drivers: Number of passengers, avg. plane capacity, % seat utilization.",
+            "If Delhi handles ~200,000 passengers/day, planes average 200 seats, 80% occupancy → ~1,250 flights/day."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 3 assumptions you’d need to estimate car washes in Mumbai.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Apply Back-of-the-Envelope Math",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Quick math is essential. Round numbers smartly."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Instead of 1.38B → 1.4B.",
+            "Instead of ₹47,000 → ₹50,000."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Clarity > Precision. Communicate your math as you go."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Estimate the number of coffee cups sold daily at Starbucks in India.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Validate with Sanity Checks",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Always sanity check. If your result seems absurd (e.g., “100B pizzas annually in India”), revise assumptions."
+        },
+        {
+          "t": "p",
+          "text": "Methods:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Compare to known data.",
+            "Use ratios (“1 ATM per 10,000 people”).",
+            "Check per capita feasibility."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Take your coffee estimate and sanity check it against store counts.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "10 Classic Guesstimate Questions",
+      "blocks": [
+        {
+          "t": "questions",
+          "items": [
+            "How many ATMs are there in India?",
+            "Estimate the number of Uber rides in Mumbai per day.",
+            "How many toothpaste tubes are sold annually in India?",
+            "Estimate the annual demand for air conditioners in Delhi.",
+            "How many Starbucks outlets can India sustain profitably?",
+            "Estimate the number of elevators in New York City.",
+            "How many cricket bats are sold in India annually?",
+            "Estimate the number of Ola drivers in Bangalore.",
+            "How many laptops are sold annually in the US?",
+            "Estimate the number of pizzas eaten per day in Mumbai."
+          ],
+          "space": "tick"
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Solve 1 question fully with MECE + assumptions.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "10 Market Sizing Questions",
+      "blocks": [
+        {
+          "t": "questions",
+          "items": [
+            "Estimate the size of the online grocery market in India (2025).",
+            "Size the electric vehicle market in Europe.",
+            "Estimate annual SaaS spend by Indian startups.",
+            "Size the OTT video streaming market in the Middle East.",
+            "Estimate the wearable tech market in the US.",
+            "Size the organic food industry in urban India.",
+            "Estimate the online ed-tech market in Africa.",
+            "Size the global luxury watch market.",
+            "Estimate the Indian insurance premium market.",
+            "Size the cross-border remittance market in Southeast Asia."
+          ],
+          "space": "tick"
+        }
+      ]
+    },
+    {
+      "title": "10 Product Demand Questions",
+      "blocks": [
+        {
+          "t": "questions",
+          "items": [
+            "Estimate iPhone sales in India (next year).",
+            "How many washing machines are sold annually in Brazil?",
+            "Estimate annual demand for two-wheelers in Indonesia.",
+            "How many premium coffee machines are sold in Europe annually?",
+            "Estimate the demand for VR headsets in the US.",
+            "How many microwaves are sold annually in India?",
+            "Estimate demand for electric scooters in Vietnam.",
+            "How many cars are sold annually in Germany?",
+            "Estimate annual demand for bottled water in Dubai.",
+            "How many footballs are sold annually in Spain?"
+          ],
+          "space": "tick"
+        }
+      ]
+    },
+    {
+      "title": "10 Service Usage Questions",
+      "blocks": [
+        {
+          "t": "questions",
+          "items": [
+            "Estimate the number of hotel rooms booked nightly in Dubai.",
+            "How many flights land daily in London Heathrow?",
+            "Estimate annual hospital visits in India.",
+            "How many haircuts are given daily in New York?",
+            "Estimate annual e-commerce orders in India.",
+            "How many cinema tickets are sold annually in France?",
+            "Estimate annual Uber Eats orders in Singapore.",
+            "How many parcels does FedEx deliver globally per day?",
+            "Estimate annual gym memberships sold in the US.",
+            "How many MBA applications are submitted annually worldwide?"
+          ],
+          "space": "tick"
+        }
+      ]
+    },
+    {
+      "title": "5 Creative Guesstimates",
+      "blocks": [
+        {
+          "t": "questions",
+          "items": [
+            "Estimate the number of Tinder swipes in India per day.",
+            "How many dogs are there in Mumbai?",
+            "Estimate annual consumption of tea in the UK.",
+            "How many WhatsApp messages are sent globally each minute?",
+            "Estimate the number of job interviews happening worldwide today."
+          ],
+          "space": "tick"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick 1 creative question and build a MECE structure.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "A consulting interview guesstimate",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A candidate was asked: “Estimate the number of gas stations in Delhi.”"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Broke Delhi population (~20M) into households.",
+            "Assumed 40% own vehicles → ~8M vehicles.",
+            "Avg. vehicle fills 40L monthly → 320M liters/month.",
+            "Avg. station dispenses 400,000L/month → ~800 stations."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The interviewer cared more about the structure than the final number."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Structure > Accuracy."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes and a 12-Week Plan",
+      "blocks": [
+        {
+          "t": "avoid",
+          "items": [
+            "Diving into math without structure.",
+            "Forgetting sanity checks.",
+            "Freezing under pressure."
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "12-week guesstimate practice plan"
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Weeks 1–4",
+              "Practice consumer goods (toothpaste, soap, coffee)."
+            ],
+            [
+              "Weeks 5–8",
+              "Practice services (rides, hotels, flights)."
+            ],
+            [
+              "Weeks 9–12",
+              "Practice market sizing (EVs, OTT, SaaS)."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Guesstimate worksheet 1",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Pick any question from this workbook. Print this page as many times as you need."
+        },
+        {
+          "t": "template",
+          "fields": [
+            [
+              "The question",
+              2
+            ],
+            [
+              "Clarifying questions I’d ask",
+              2
+            ],
+            [
+              "My structure (segments)",
+              5
+            ],
+            [
+              "Assumptions",
+              4
+            ],
+            [
+              "The math",
+              5
+            ],
+            [
+              "Sanity check",
+              2
+            ],
+            [
+              "Final answer, in one sentence",
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Guesstimate worksheet 2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Another worksheet for your next question."
+        },
+        {
+          "t": "template",
+          "fields": [
+            [
+              "The question",
+              2
+            ],
+            [
+              "Clarifying questions I’d ask",
+              2
+            ],
+            [
+              "My structure (segments)",
+              5
+            ],
+            [
+              "Assumptions",
+              4
+            ],
+            [
+              "The math",
+              5
+            ],
+            [
+              "Sanity check",
+              2
+            ],
+            [
+              "Final answer, in one sentence",
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Guesstimate worksheet 3",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Another worksheet for your next question."
+        },
+        {
+          "t": "template",
+          "fields": [
+            [
+              "The question",
+              2
+            ],
+            [
+              "Clarifying questions I’d ask",
+              2
+            ],
+            [
+              "My structure (segments)",
+              5
+            ],
+            [
+              "Assumptions",
+              4
+            ],
+            [
+              "The math",
+              5
+            ],
+            [
+              "Sanity check",
+              2
+            ],
+            [
+              "Final answer, in one sentence",
+              2
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "45 practice questions"
+}

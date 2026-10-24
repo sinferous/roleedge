@@ -1,0 +1,342 @@
+{
+  "slug": "career-renewal-guide",
+  "title": "Career Renewal Guide",
+  "subtitle": "How to Break Plateaus, Reignite Growth, and Reclaim Career Momentum",
+  "sections": [
+    {
+      "title": "Why Career Stagnation Happens",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Even top performers hit plateaus. Causes include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Staying too long in comfort zone.",
+            "Lack of feedback or sponsorship.",
+            "Industry shifts making skills outdated.",
+            "Focusing only on “doing” instead of “growing.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "When was the last time you felt true growth in your role?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Recognize Signs of Stagnation",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Clues you’re stagnant:"
+        },
+        {
+          "t": "check",
+          "items": [
+            "No promotion or role change in 3+ years.",
+            "Work feels repetitive, uninspiring.",
+            "Recruiters show less interest.",
+            "Skills don’t excite you anymore."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Tick the signs above that you relate to right now. What do they have in common?",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Diagnose the Root Cause",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Is stagnation **internal (you)** or **external (company/market)?**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Internal = skills plateau, low networking.",
+            "External = company culture, blocked hierarchy."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write your top 2 reasons for feeling stagnant.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Reset Your Career Vision & Goals",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "If you’re stuck, reset."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Short-term (next 12–18 months).",
+            "Long-term (3–5 years)."
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "From mid-level finance manager to fintech product lead."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 1 short-term + 1 long-term goal.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My goal",
+              "First step"
+            ],
+            "rows": [
+              [
+                "Short term (12–18 months)",
+                "",
+                ""
+              ],
+              [
+                "Long term (3–5 years)",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Upskill & Rebuild Competitive Advantage",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Plateaus often = outdated skills. Fix by:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Enrolling in MBA, CFA, or certifications.",
+            "Learning AI/data analytics for tech relevance.",
+            "Gaining cross-functional exposure."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "List 1 skill that would make you more marketable today.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Build a Growth-Oriented Network",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your next break may not come from HR—it’ll come from your **network.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Join alumni networks.",
+            "Connect with industry leaders on LinkedIn.",
+            "Attend conferences, webinars."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Message 1 alum in a role you aspire to.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Seek Mentorship & Coaching for Clarity",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Mentors accelerate clarity. Coaches give structured push. Together, they:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Provide unbiased feedback.",
+            "Shorten trial-and-error cycles.",
+            "Hold you accountable."
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "Priya felt stuck in audit. A mentor helped her see which of her skills transferred to consulting, and who to speak to there. She moved into a consulting role within a year."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Name two people who could mentor you, and what you’d ask each of them.",
+          "numbered": 2
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Pivoting Industries or Roles Strategically",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Sometimes stagnation requires **reinvention.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Consulting → Product Management.",
+            "Audit → Strategy.",
+            "Banking → Fintech."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Pivot = transfer skills + build new story."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 1 pivot you’d consider in next 2 years.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Rebranding Yourself",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A new story → new opportunities."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Resume → focus on leadership + impact.",
+            "LinkedIn → headline = aspirational.",
+            "Narrative → “I’m moving from X to Y because Z.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Rewrite your LinkedIn headline for your pivot role.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 8"
+    },
+    {
+      "title": "Handling Confidence Loss During Stagnation",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Stagnation often impacts self-worth. Fix mindset by:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Documenting small wins.",
+            "Practicing affirmations.",
+            "Talking to peers/mentors who’ve navigated it."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Write 2 strengths you’ve consistently shown at work.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ],
+      "eyebrow": "Step 9"
+    },
+    {
+      "title": "From stuck analyst to strategy consultant",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Rajat spent 5 years in audit with no growth. He upskilled in consulting frameworks, worked on his story, and moved first into a Big Four advisory team and then into strategy consulting."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Skills + story = breakthrough."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "From mid-level manager to product manager",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Anjali plateaued in FMCG sales. She used an MBA to rebrand, networked with alumni at tech companies, and pivoted into product management."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Pivot + rebrand + network."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes and Your 90-Day Plan",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Mistakes: Staying passive, blaming company, ignoring upskilling.",
+            "Fix: Reset goals, rebrand, network."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Weeks 1–4",
+              "Diagnose stagnation + reset goals."
+            ],
+            [
+              "Weeks 5–8",
+              "Upskill + start networking."
+            ],
+            [
+              "Weeks 9–12",
+              "Rebrand + explore pivots."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

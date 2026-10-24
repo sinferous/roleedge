@@ -65,7 +65,7 @@ erDiagram
 create extension if not exists citext;
 
 -- Enums
-create type lead_source   as enum ('contact_form', 'booking', 'planner');
+create type lead_source   as enum ('contact_form', 'booking', 'planner', 'resource');
 create type lead_status   as enum ('new', 'contacted', 'qualified', 'closed', 'spam');
 create type lead_topic    as enum ('mba_admissions', 'consulting', 'career_change', 'resume_linkedin', 'institution', 'edgeai', 'other');
 create type booking_status as enum ('requested', 'confirmed', 'declined', 'cancelled', 'completed');

@@ -36,6 +36,33 @@
   background: radial-gradient(circle, #ae804026 0%, transparent 70%);
   pointer-events: none;
 }
+/* A photo behind the header (PageHero `backdrop`). The navy fade keeps the text on top readable. */
+.page-hero-backdrop-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+  z-index: 0;
+}
+.page-hero-backdrop::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(90deg, var(--navy-deep) 0%, rgb(17 45 55 / 0.88) 45%, rgb(17 45 55 / 0.72) 72%, rgb(17 45 55 / 0.45) 100%);
+  pointer-events: none;
+}
+.page-hero-backdrop .page-hero-inner {
+  z-index: 2;
+}
+/* On narrow screens the text runs across the photo, so it sits under a darker, even fade. */
+@media (max-width: 959px) {
+  .page-hero-backdrop::before {
+    background: linear-gradient(180deg, rgb(17 45 55 / 0.88), rgb(17 45 55 / 0.72));
+  }
+}
 .page-hero-inner {
   position: relative;
   z-index: 1;
@@ -471,6 +498,29 @@ textarea.field-control {
   background-position: right 14px center;
   background-size: 16px;
 }
+/* Country code picker beside the number (PhoneField). */
+.phone-control {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  gap: 8px;
+}
+.phone-code {
+  display: flex;
+  align-items: center;
+  grid-area: 1 / 1;
+  font-variant-numeric: tabular-nums;
+}
+/* The real select sits invisibly over the code box, so a click or tap opens the full list. */
+.phone-select {
+  grid-area: 1 / 1;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.phone-control:has(.phone-select:focus) .phone-code {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 3px #ae80402e;
+}
 .field-error,
 .form-error {
   margin-top: 6px;
@@ -645,28 +695,71 @@ textarea.field-control {
   opacity: 0.35;
   cursor: not-allowed;
 }
-.slot-grid {
+/* Pick a day, then one of its times: the picker stays the same short height whatever the week holds. */
+.day-strip {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 10px;
+  gap: 8px;
+  margin-bottom: 22px;
 }
-.slot-day h3 {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid var(--line);
-  font-family: var(--sans);
+.day-tab {
+  display: grid;
+  gap: 1px;
+  padding: 10px 6px;
+  border: 1px solid #d6d9cf;
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  line-height: 1.3;
+  text-align: center;
+  transition: border-color 0.15s, background-color 0.15s, color 0.15s;
+}
+.day-tab strong {
   font-size: 13px;
   font-weight: 600;
-  line-height: 1.35;
 }
-.slot-day h3 span {
-  display: block;
+.day-tab span {
+  font-size: 13px;
+}
+.day-tab small {
+  margin-top: 3px;
   color: var(--muted);
-  font-weight: 400;
+  font-size: 11px;
 }
-.slot-day ul {
+.day-tab:hover:not(:disabled) {
+  border-color: var(--ink);
+}
+.day-tab[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+.day-tab[aria-pressed="true"] small {
+  color: var(--gold-light);
+}
+.day-tab:disabled {
+  background: transparent;
+  border-style: dashed;
+  color: var(--muted);
+  cursor: not-allowed;
+}
+.slot-periods {
   display: grid;
-  gap: 6px;
+  gap: 16px;
+}
+.slot-period h3 {
+  margin-bottom: 8px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.slot-period ul {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1022,9 +1115,8 @@ textarea.field-control {
   .post-aside {
     position: static;
   }
-  .slot-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    row-gap: 22px;
+  .slot-period ul {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
   .content-section {
     padding-block: 72px;
@@ -1050,8 +1142,11 @@ textarea.field-control {
   .form-card {
     padding: 24px 20px;
   }
-  .slot-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .day-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .slot-period ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .post-cover {
     margin-top: -36px;
@@ -1090,6 +1185,14 @@ textarea.field-control {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1.2px;
+}
+/* "Prefer email?" line on /book, framed in gold. */
+.split-intro > p.email-box {
+  margin-top: 28px;
+  padding: 16px 20px;
+  border: 1.5px solid var(--gold);
+  border-radius: 8px;
+  background: rgb(174 128 64 / 0.06);
 }
 .muted-note a,
 .split-intro p a,
@@ -1349,6 +1452,83 @@ main:has(> .closing-section:not([style*="display: none"])) + .site-footer {
 }
 .resource-actions .t-learn {
   font-size: 13.5px;
+}
+/* The popup that asks for a name and email before the first download (DownloadButton). */
+.download-dialog {
+  width: min(460px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  padding: 32px 32px 28px;
+  border: 0;
+  border-top: 4px solid var(--gold);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 24px 60px rgb(23 47 58 / 0.28);
+}
+.download-dialog::backdrop {
+  background: rgb(23 47 58 / 0.55);
+}
+.download-dialog[open] {
+  animation: download-dialog-in var(--duration-fast) var(--ease-smooth-out);
+}
+@keyframes download-dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .download-dialog[open] {
+    animation: none;
+  }
+}
+.download-dialog h2 {
+  margin: 0 32px 8px 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+}
+.download-dialog-eyebrow {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.download-dialog-lead {
+  margin: 0;
+  color: var(--muted);
+}
+.download-dialog .button {
+  gap: 8px;
+}
+.download-dialog .form-success {
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 16px;
+}
+.download-dialog .form-success p {
+  margin: 0;
+}
+.download-dialog-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color var(--duration-quick) ease;
+}
+.download-dialog-close:hover {
+  background: rgb(23 47 58 / 0.08);
 }
 @media (max-width: 1180px) {
   .resource-folders {

@@ -1,0 +1,363 @@
+{
+  "slug": "career-pivot-toolkit",
+  "title": "Career Pivot Toolkit",
+  "subtitle": "How to Reinvent Your Career Without Starting Over",
+  "sections": [
+    {
+      "title": "Why Career Pivots Are the New Normal",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Gone are the days when professionals stayed in one career for 30 years. Many professionals now change roles **several times** before reaching senior leadership. Entire industries are being disrupted by AI, automation, and new business models. What feels like “job hopping” is actually **career adaptability**."
+        },
+        {
+          "t": "p",
+          "text": "Pivots are not signs of instability—they’re signs of **agility**. The most in-demand professionals are those who can apply their skills across industries. Think of consultants moving into startups, engineers shifting to product management, or finance professionals joining venture capital."
+        },
+        {
+          "t": "p",
+          "text": "A career pivot is less about “leaving something behind” and more about **reframing your story** so recruiters see you as an asset in the new space."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down the top 3 reasons you want to pivot (growth, learning, salary, stability). Which one is strongest for you?",
+          "lines": 4,
+          "numbered": 3
+        }
+      ]
+    },
+    {
+      "title": "The Myth of “Starting Over”",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Many fear pivots because they think they’ll have to restart from scratch. That’s rarely true. If you’ve built 5–10 years of experience, you already have **transferable skills**: leadership, communication, problem-solving, project management."
+        },
+        {
+          "t": "p",
+          "text": "Yes, you may need to upskill in domain-specific tools (SQL, PM frameworks, ESG standards), but you’re not beginning at zero. You’re leveraging your **career capital** in a new way."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "List 5 skills you currently use. Now circle which ones are universal (e.g., “stakeholder management”).",
+          "lines": 4,
+          "numbered": 5
+        }
+      ]
+    },
+    {
+      "title": "Clarify Your Target Industry & Role",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A pivot without direction is chaos. Be specific: don’t just say, “I want to move into tech.” Instead, decide whether you want **product management, business analysis, data science, or sales strategy.**"
+        },
+        {
+          "t": "p",
+          "text": "Ask yourself:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Which industries excite me?",
+            "What job functions overlap with my strengths?",
+            "Which roles have demand in my geography?"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Write one target role and one backup role you’ll focus on.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "Role",
+              "Why it fits me"
+            ],
+            "rows": [
+              [
+                "Target role",
+                "",
+                ""
+              ],
+              [
+                "Backup role",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Identify Transferable Skills",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your transferable skills are your currency. For example:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Finance → Consulting: analytical rigor, client presentations.",
+            "Consulting → Product: structured problem solving, stakeholder alignment.",
+            "IT → Data Analytics: systems thinking, coding basics."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Fill in the table: skills from your current role on the left, how each one applies to your pivot role on the right.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Skill from my current role",
+              "How it applies to my pivot role"
+            ],
+            "rows": 5
+          }
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Restructure Your Resume for Pivots",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your old resume screams your current role. For pivots, you need a resume that **highlights transferable impact.**"
+        },
+        {
+          "t": "p",
+          "text": "Tips:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Use a **summary section** to position your pivot upfront.",
+            "Reframe bullets from “tasks” → “impact.”",
+            "Example: “Managed SAP implementation” → “Led cross-functional digital transformation, saving ₹3 Cr annually.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Rewrite 1 bullet point from your resume in pivot language.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Rewrite Your LinkedIn Headline & Summary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "LinkedIn is often the first filter recruiters see. A pivot headline signals intent."
+        },
+        {
+          "t": "compare",
+          "rows": [
+            [
+              "Bad headline",
+              "“Software Engineer @ TCS”"
+            ],
+            [
+              "Pivot headline",
+              "“Aspiring Data Analyst | SQL | Python | Turning Data Into Business Insights”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Your summary should explain **where you’re going, not just where you’ve been.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Draft a one-line LinkedIn headline that reflects your pivot direction.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Networking for Pivots – Hidden Job Market",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Many pivot hires happen through referrals, not applications. That’s because recruiters trust insiders when candidates lack “perfect” backgrounds."
+        },
+        {
+          "t": "p",
+          "text": "Steps:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Connect with 10 professionals weekly in your target role.",
+            "Ask for **informational interviews** (20 min chats).",
+            "Use alumni, conferences, and LinkedIn groups as entry points."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 3 names you can reach out to this week.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Building Your Pivot Story",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Recruiters will ask: “Why are you moving from X to Y?” Your answer must be **clear, compelling, and confident.**"
+        },
+        {
+          "t": "p",
+          "text": "Framework: Past → Present → Future."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Past: “I built a strong foundation in consulting.”",
+            "Present: “I’ve realized my passion is product strategy.”",
+            "Future: “That’s why I’m excited to transition into product management roles.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write your pivot story in 3 sentences.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My pivot story"
+            ],
+            "rows": [
+              [
+                "Past",
+                ""
+              ],
+              [
+                "Present",
+                ""
+              ],
+              [
+                "Future",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Upskilling Without Over-Investing",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "You don’t need another degree. Often, short courses, certifications, or side projects suffice. Examples:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Finance → Tech: SQL + Python + Tableau basics.",
+            "Consulting → Product: Scrum certification.",
+            "Marketing → Data: Google Analytics + Excel dashboards."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Choose 1 skill to upskill in 30 days.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "IT to Consulting Pivot",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "An engineer at an IT services firm wanted to move into consulting. She highlighted her **problem-solving projects** and took a short business strategy course. After rewriting her resume with impact-driven bullets and networking with alumni, she secured a consulting role within 6 months."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "She didn’t abandon her IT background—she reframed it as **consulting experience in disguise.**"
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Finance to Product Management Pivot",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "An investment bank analyst wanted to move into product. He built side projects (mock product roadmaps), completed a PM course, and rewrote his LinkedIn summary to reflect PM aspirations. He then networked with product managers at fintech startups and landed an Associate PM role."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "He **signaled intent + proof of effort**, making recruiters trust his pivot."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes in Career Pivots",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Applying blindly without tailoring.",
+            "Apologizing for “lack of experience” instead of reframing it.",
+            "Waiting too long to start networking.",
+            "Over-investing in MBAs/certifications without clarity."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Which mistake do you identify with? Write one action to fix it.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "90-Day Pivot Action Plan",
+      "blocks": [
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Days 1–30",
+              "Research, then rewrite your resume and LinkedIn"
+            ],
+            [
+              "Days 31–60",
+              "Build skills and network actively"
+            ],
+            [
+              "Days 61–90",
+              "Apply, use referrals and prepare for interviews"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

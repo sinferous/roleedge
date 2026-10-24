@@ -32,15 +32,19 @@ export default function PrivacyPage() {
                 <strong>Starting-point planner:</strong> nothing, unless you ask us to email your plan. Then we keep your email address and your three answers.
               </li>
               <li>
+                <strong>Free resources:</strong> your name, email and which guide you download. We email you the link and may follow up about it.
+              </li>
+              <li>
                 <strong>Analytics:</strong> anonymous, cookie-free page statistics. We don’t use advertising pixels or tracking cookies.
               </li>
             </ul>
             <h2>Why we use it</h2>
-            <p>Only to reply to you, arrange the call you asked for, or send the plan you requested. We don’t sell your data or send marketing emails without separate permission.</p>
+            <p>Only to reply to you, arrange the call you asked for, send the plan or resource you requested, and follow up about it. We don’t sell your data or send marketing emails without separate permission.</p>
             <h2>How long we keep it</h2>
             <ul>
               <li>Enquiries and call requests: up to 24 months after our last contact.</li>
               <li>Planner emails: up to 12 months.</li>
+              <li>Free resource downloads: up to 12 months.</li>
               <li>Messages marked as spam: 30 days.</li>
             </ul>
             <h2>Who processes it</h2>

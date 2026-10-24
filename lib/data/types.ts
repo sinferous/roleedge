@@ -4,7 +4,7 @@ import type { bookingStatuses, leadStatuses } from "@/lib/validation";
 
 export type LeadStatus = (typeof leadStatuses)[number];
 export type BookingStatus = (typeof bookingStatuses)[number];
-export type LeadSource = "contact_form" | "booking" | "planner";
+export type LeadSource = "contact_form" | "booking" | "planner" | "resource";
 export type NotifyStatus = "pending" | "sent" | "failed";
 
 export type Lead = {

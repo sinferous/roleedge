@@ -1,0 +1,379 @@
+{
+  "slug": "interview-prep-toolkit",
+  "title": "Interview Prep Toolkit",
+  "subtitle": "Structure, Stories, and Strategies to Win Every Interview",
+  "sections": [
+    {
+      "title": "Why Interview Prep Matters",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The best candidates often don’t get offers—not because they lack skills, but because they fail to **communicate effectively.** An interview is not just Q&A; it’s a **persuasion exercise.**"
+        },
+        {
+          "t": "p",
+          "text": "Employers ask:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Can this person do the job? (skills)",
+            "Will they fit into the culture? (values)",
+            "Do I want to work with them daily? (presence)"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Think of your last interview. Did you answer to impress or just to respond?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Understand Recruiter Psychology",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Recruiters don’t have time to dig. They want:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Clarity:** Simple, direct answers.",
+            "**Confidence:** No overthinking.",
+            "**Consistency:** Stories aligned across resume, LinkedIn, and answers."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 3 adjectives you want an interviewer to remember about you (e.g., analytical, collaborative, resilient).",
+          "lines": 4,
+          "numbered": 3
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Researching the Company & Role",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Interviewers expect you to know **why them.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Study company strategy (annual reports, press releases).",
+            "Know recent deals/initiatives.",
+            "Understand role expectations (JD keywords)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write one reason you want this company specifically—not generic.",
+          "lines": 3
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Crafting Your Personal Pitch",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "“Tell me about yourself” = your pitch moment. Keep it **2 minutes, structured, confident.**"
+        },
+        {
+          "t": "p",
+          "text": "Framework: Past → Present → Future."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Past: Background.",
+            "Present: Current role/strengths.",
+            "Future: Why this role/company."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write your 2-minute pitch in 3–4 bullet points.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My pitch"
+            ],
+            "rows": [
+              [
+                "Past",
+                ""
+              ],
+              [
+                "Present",
+                ""
+              ],
+              [
+                "Future",
+                ""
+              ],
+              [
+                "Why this role",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Mastering Behavioral Questions",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Common Qs:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "“Tell me about a time you led a team.”",
+            "“Tell me about a conflict.”",
+            "“Describe a failure.”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Always use STAR (Situation, Task, Action, Result)."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 1 STAR story for leadership.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My leadership story"
+            ],
+            "rows": [
+              [
+                "Situation",
+                ""
+              ],
+              [
+                "Task",
+                ""
+              ],
+              [
+                "Action",
+                ""
+              ],
+              [
+                "Result",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Building a STAR Story Bank",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Don’t prepare 2–3 stories. Prepare **10–12 across themes**: leadership, problem-solving, teamwork, resilience, innovation."
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Fill in your story bank: one skill per row and the story that proves it. Aim for at least five.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Skill",
+              "My story (a few words to jog your memory)"
+            ],
+            "rows": 8
+          }
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Handling Strengths & Weaknesses Questions",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Strengths:** Link to role (e.g., “analytical thinking” for consulting).",
+            "**Weaknesses:** Be honest but show improvement."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Example Weakness: “I used to overanalyze, but I now use structured decision-making to balance speed and accuracy.”"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 1 strength + 1 weakness aligned to your target role.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "Mine, linked to the role"
+            ],
+            "rows": [
+              [
+                "Strength",
+                ""
+              ],
+              [
+                "Weakness and how I’m improving",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Preparing for Technical/Role-Specific Questions",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Consulting → case studies, profitability math.",
+            "Finance → valuation, ratios, DCF.",
+            "Tech → coding basics, product thinking."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 3 technical questions you expect in your role.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Asking Smart Questions to Interviewers",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "End with strong questions—it shows curiosity and fit."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "“What skills make someone excel in this role here?”",
+            "“How does this team contribute to the company’s growth strategy?”"
+          ]
+        },
+        {
+          "t": "avoid",
+          "items": [
+            "Don’t ask about salary at first round."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 2 smart questions you’ll ask in your next interview.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ],
+      "eyebrow": "Step 8"
+    },
+    {
+      "title": "Mock Interviews & Practice Strategies",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Practice is the difference. Options:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Peer practice.",
+            "Mock interviews with mentors.",
+            "AI-based interview tools."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Schedule 1 mock interview this week.",
+          "lines": 2
+        }
+      ],
+      "eyebrow": "Step 9"
+    },
+    {
+      "title": "Cracking a consulting interview",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Megha practised 40+ cases with peers, refined her STAR stories and rehearsed with a mentor. Result: a business analyst offer from a strategy firm.",
+            "Lesson: **Consistency beats cramming.**"
+          ]
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Cracking a finance interview",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Rohit used targeted resume bullets, practised 50+ finance technical questions and built strong why-finance answers. Result: an investment banking offer.",
+            "Lesson: **Alignment + confidence win finance interviews.**"
+          ]
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes and Your 90-Day Plan",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Mistakes: Winging answers, ignoring PEI, no prep for technicals.",
+            "Fix: Story bank, mocks, research."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Weeks 1–4",
+              "Build STAR story bank."
+            ],
+            [
+              "Weeks 5–8",
+              "Practice technicals."
+            ],
+            [
+              "Weeks 9–12",
+              "Mock interviews + refine pitch."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

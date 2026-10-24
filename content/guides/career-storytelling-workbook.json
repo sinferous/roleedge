@@ -1,0 +1,328 @@
+{
+  "slug": "career-storytelling-workbook",
+  "title": "Career Storytelling Workbook",
+  "subtitle": "How to Turn Your Experience Into a Powerful Narrative That Wins Interviews",
+  "sections": [
+    {
+      "title": "Why Storytelling Is Your Secret Interview Weapon",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Interviews aren’t exams—they’re conversations. Recruiters don’t just evaluate your skills; they judge how **compellingly you explain them.** Storytelling bridges the gap between your experience and their expectations."
+        },
+        {
+          "t": "p",
+          "text": "Think about it: A generic answer like “I’m hardworking and detail-oriented” falls flat. But a story—“Last quarter, I led a 5-member team on a high-pressure audit, discovered a control gap saving the company ₹1.2 Cr, and was recognized with a spot bonus”—immediately shows proof of ability."
+        },
+        {
+          "t": "p",
+          "text": "Stories stick because humans remember **narratives, not bullet points.** The right story demonstrates skills, builds trust, and makes you memorable long after the interview ends."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down 3 moments in your career where you created measurable impact.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ]
+    },
+    {
+      "title": "The STAR Framework: Structure Your Story for Impact",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The STAR method (Situation, Task, Action, Result) is your storytelling backbone."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Situation:** Context—set the scene.",
+            "**Task:** Define your role/responsibility.",
+            "**Action:** What you did specifically (not the team).",
+            "**Result:** Quantify the outcome (savings, revenue, efficiency)."
+          ]
+        },
+        {
+          "t": "example",
+          "items": [
+            "Situation: “Client facing 20% revenue drop.”",
+            "Task: “As consultant, I owned the pricing workstream.”",
+            "Action: “Analyzed 50 SKUs, built competitor benchmarking model.”",
+            "Result: “Recommendations improved margins by 8%, ~₹15 Cr.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick 1 past achievement and rewrite it in STAR format.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My story"
+            ],
+            "rows": [
+              [
+                "Situation",
+                ""
+              ],
+              [
+                "Task",
+                ""
+              ],
+              [
+                "Action",
+                ""
+              ],
+              [
+                "Result",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Identifying High-Impact Career Stories",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Not all stories are equal. High-impact stories share three traits:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Business relevance** – connects to leadership, problem-solving, client value.",
+            "**Tangible results** – numbers, percentages, recognition.",
+            "**Your personal role** – what you did, not just the team."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Sources of stories:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Big wins (promotions, awards).",
+            "Challenges (tight deadlines, crisis management).",
+            "Failures (what you learned)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "List 5 career moments. Circle the top 3 with measurable impact.",
+          "lines": 4,
+          "numbered": 5
+        }
+      ]
+    },
+    {
+      "title": "Leadership in Action",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Employers love leadership stories—even for non-manager roles. They reveal initiative."
+        },
+        {
+          "t": "example",
+          "items": [
+            "“I was an associate but volunteered to coordinate a client workshop when my manager was unavailable. I designed the agenda, facilitated discussions, and summarized action items. The client praised the workshop, and it built my credibility.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write one leadership story where you went beyond your formal title.",
+          "lines": 7
+        }
+      ],
+      "eyebrow": "Story 1"
+    },
+    {
+      "title": "Problem-Solving Under Pressure",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Consulting and finance interviews often include “Tell me about a time you solved a difficult problem.”"
+        },
+        {
+          "t": "example",
+          "items": [
+            "“In my audit project, the client’s books were mismatched by ₹50 Cr. I led a small team, traced errors, and identified missing reconciliations. By deadline, we delivered a clean report, avoiding regulatory penalties.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write one story where you solved a complex problem under a tight deadline.",
+          "lines": 7
+        }
+      ],
+      "eyebrow": "Story 2"
+    },
+    {
+      "title": "Driving Results With Measurable Impact",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Numbers are credibility. Saying “I worked hard” isn’t persuasive. Saying “I streamlined reporting, reducing turnaround time by 30% and saving 200 hours annually” is."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write one story where you delivered results in numbers (time, cost, revenue, efficiency).",
+          "lines": 7
+        }
+      ],
+      "eyebrow": "Story 3"
+    },
+    {
+      "title": "Collaboration & Teamwork",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Collaboration stories show you can thrive in cross-functional teams."
+        },
+        {
+          "t": "example",
+          "items": [
+            "“During a cross-border M&A deal, I coordinated between finance in India, legal in London, and tax in Singapore. Despite time zones, I aligned deliverables and ensured due diligence was completed on time.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a story that shows teamwork across departments or geographies.",
+          "lines": 7
+        }
+      ],
+      "eyebrow": "Story 4"
+    },
+    {
+      "title": "Overcoming Failure & Resilience",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Failure stories make you relatable. The key: focus on **learning and bounce-back.**"
+        },
+        {
+          "t": "example",
+          "items": [
+            "“I once underestimated a client presentation, missing critical data. It was a setback. I took ownership, stayed late, re-ran the analysis, and delivered an updated deck the next day. It taught me to always double-check assumptions.”"
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a failure story that highlights resilience.",
+          "lines": 7
+        }
+      ],
+      "eyebrow": "Story 5"
+    },
+    {
+      "title": "Customizing Stories for Consulting vs Finance vs Tech",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "**Consulting:** Problem-structuring, client management, measurable results.",
+            "**Finance:** Analytical rigor, accuracy, compliance, high-stakes decision-making.",
+            "**Tech/Product:** Innovation, data-driven decisions, user impact."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick 1 story and adapt it for each industry.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Industry",
+              "What I’d emphasise"
+            ],
+            "rows": [
+              [
+                "Consulting",
+                ""
+              ],
+              [
+                "Finance",
+                ""
+              ],
+              [
+                "Tech / product",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Power of Authenticity – Why Fake Stories Fail",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Recruiters are trained to detect over-polished or fake stories. Authenticity builds trust. If you don’t have a “perfect” story, be honest about context and focus on your growth."
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Are you tempted to exaggerate in your stories? How can you make them authentic instead?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Building a Career Story Bank",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Don’t go into interviews with just 2–3 stories. Build a **bank of 10–15 stories** covering: leadership, problem-solving, conflict resolution, resilience, and innovation. This lets you adapt no matter what question comes your way."
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Fill in your story bank: one skill per row, and the story that proves it. Aim for at least five.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Skill",
+              "My story (a few words to jog your memory)"
+            ],
+            "rows": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "Story Delivery Checklist",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Before any interview:"
+        },
+        {
+          "t": "check",
+          "items": [
+            "Rehearse each story aloud.",
+            "Keep it under 2 minutes.",
+            "Emphasise results, not process.",
+            "End on a positive note."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick 1 story and time yourself delivering it. Was it under 2 minutes?",
+          "lines": 4
+        }
+      ]
+    }
+  ]
+}

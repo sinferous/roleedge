@@ -29,7 +29,7 @@ export default async function BookPage() {
           <div className="split-intro">
             <h2>What to expect.</h2>
             <p>We’ll ask about your experience, your goal and your timeline, and you can ask anything about how we work and what it costs.</p>
-            <p>
+            <p className="email-box">
               Prefer email? Write to <a href={`mailto:${site.email}`}>{site.email}</a>.
             </p>
           </div>

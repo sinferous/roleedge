@@ -1,0 +1,358 @@
+{
+  "slug": "consulting-prep-playbook",
+  "title": "Consulting Prep Playbook",
+  "subtitle": "Frameworks, Tools, and Practice to Crack MBB and Big 4 Interviews",
+  "sections": [
+    {
+      "title": "Why Consulting Interviews Are Unique",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Consulting firms test how you **think, structure, and communicate.** Unlike other industries, consulting interviews combine **business problem-solving** with **behavioral storytelling.**"
+        },
+        {
+          "t": "p",
+          "text": "Recruiters look for:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Structured thinking (MECE).",
+            "Clarity in communication.",
+            "Comfort with ambiguity.",
+            "Quick math skills.",
+            "Strong presence under pressure."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 2 reasons why consulting appeals to you as a career path.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ]
+    },
+    {
+      "title": "Master the Consulting Mindset",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Consultants are trained to:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Break down complex problems into simple parts.",
+            "Focus on impact, not activity.",
+            "Communicate with clarity in every slide or sentence."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "You must approach every case like a consultant: structured, hypothesis-driven, and concise."
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "When solving problems, do you jump to solutions or pause to structure?",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Learn the Core Frameworks",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Frameworks are scaffolds, not crutches. The must-know ones are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Profitability:** Revenue vs cost breakdown.",
+            "**Market Entry:** Market, Competition, Customer, Company.",
+            "**M&A:** Synergies, risks, valuation.",
+            "**Operations:** Efficiency, bottlenecks.",
+            "**4Ps/7Ps:** Marketing-driven cases."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a MECE breakdown for: “Client wants to launch a new digital bank.”",
+          "lines": 6
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Market Sizing & Guesstimates",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Market sizing shows logical structure. Example: “Estimate the market for EV chargers in India.”"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Cars in India → % EV → Chargers needed per EV → Price per charger."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The goal isn’t accuracy—it’s **structure.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick a consumer product and estimate its annual market size in your city.",
+          "lines": 6
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Profitability Cases",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Profit drops = check:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Revenues:** Price, volume, mix.",
+            "**Costs:** Fixed, variable, supply chain."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Mini Case",
+          "text": "A hotel’s profits are down despite steady occupancy. How do you diagnose?",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Market Entry & Growth Strategy Cases",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Clients want growth. Market entry analysis covers:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Market size, growth potential.",
+            "Competitive intensity.",
+            "Client’s strengths & weaknesses.",
+            "Entry mode: Build, Buy, Partner."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Mini Case",
+          "text": "A US pizza chain wants to enter India. How do you structure?",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "M&A & Private Equity Cases",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "PE/M&A cases test valuation + synergies."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Revenue synergies (cross-selling).",
+            "Cost synergies (shared supply chains).",
+            "Risks (integration, culture)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Mini Case",
+          "text": "A telecom company wants to acquire a smaller competitor. How do you assess?",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Operations & Supply Chain Cases",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Ops = efficiency."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Inputs → Process → Outputs.",
+            "Bottlenecks, utilization, lean methods."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Mini Case",
+          "text": "A factory runs at 60% capacity. What levers can improve throughput?",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Public Sector & Non-Profit Cases",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Many firms (BCG, Dalberg, Deloitte) do social sector projects. Framework still applies:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Diagnose issue.",
+            "Define impact metrics (access, efficiency).",
+            "Build sustainable models."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Mini Case",
+          "text": "An NGO wants to increase vaccination rates. How do you structure?",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 8"
+    },
+    {
+      "title": "Case Math: Margins, Breakevens, CAGR",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Math shows rigor."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Profit Margin = Profit ÷ Revenue.",
+            "Breakeven = Fixed Costs ÷ Contribution Margin.",
+            "CAGR = (End/Start)^(1/n) – 1."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "A client grows revenue from $100M to $200M in 4 years. What’s the CAGR? (Answer: about 19%.)",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Fit/Personal Experience Interview (PEI) Preparation",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Firms such as McKinsey give the **Personal Experience Interview (PEI)** as much weight as the case. Common questions:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Tell me about a time you led a team.",
+            "Tell me about a time you solved a conflict.",
+            "Tell me about a failure."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Framework: STAR (Situation, Task, Action, Result)."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write 1 leadership story using STAR.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "My leadership story"
+            ],
+            "rows": [
+              [
+                "Situation",
+                ""
+              ],
+              [
+                "Task",
+                ""
+              ],
+              [
+                "Action",
+                ""
+              ],
+              [
+                "Result",
+                ""
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Worked examples",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "**Strategy firm offer:** Rohan practised 50+ cases with peers, refined his PEI stories and drilled case math until it was automatic. He received a business analyst offer.",
+            "**Big Four offer:** Sneha rewrote her resume with quantified impact, practised profitability cases and guesstimates, and landed a strategy analyst role."
+          ]
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Prep = consistency, not shortcuts."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes and a 12-Week Plan",
+      "blocks": [
+        {
+          "t": "avoid",
+          "items": [
+            "Jumping to solutions without structure.",
+            "Over-relying on memorized frameworks.",
+            "Neglecting PEI."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Weeks 1–4",
+              "Framework drills + guesstimates."
+            ],
+            [
+              "Weeks 5–8",
+              "Profitability + market entry mocks."
+            ],
+            [
+              "Weeks 9–12",
+              "Full mock interviews + PEI stories."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -23,7 +23,9 @@ export default async function CareerPage() {
   const service = await getService("consulting-career-moves");
   if (!service) notFound();
   const [stories, faqs] = await Promise.all([getStories("consulting"), getFaqs(service.faqIds)]);
-  const tools = resources.filter((r) => r.track === "career" && (r.confirmed || showPendingContent));
+  // Three picks across interviews, offers and career changes; the rest are on /resources.
+  const featured = ["case-interview-guide", "salary-negotiation-script-pack", "career-pivot-toolkit"];
+  const tools = resources.filter((r) => featured.includes(r.slug) && (r.confirmed || showPendingContent));
 
   return (
     <>

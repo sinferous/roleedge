@@ -1,0 +1,337 @@
+{
+  "slug": "career-strategy-playbook",
+  "title": "Career Strategy Playbook",
+  "subtitle": "Build, Navigate, and Future-Proof Your Career",
+  "sections": [
+    {
+      "title": "Why You Need a Career Strategy",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Most professionals drift through careers, chasing the next promotion or job switch without a bigger picture. The result? Burnout, mismatched roles, and stagnation."
+        },
+        {
+          "t": "p",
+          "text": "A career strategy ensures that every move—MBA, job switch, skill acquisition—aligns with your **long-term goals**. Think of it like financial planning: structured, intentional, and focused on compounding results."
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "Do you currently make career moves reactively (chasing opportunities) or proactively (shaping opportunities)?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Define Your Long-Term Career Vision",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Ask yourself: What do I want my professional legacy to be?"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Do you aspire to be a Partner at a consulting firm?",
+            "A CFO leading financial strategy?",
+            "A Product Head driving tech innovation?"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Your long-term vision guides short-term choices."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a 10-year vision statement for your career.",
+          "lines": 5
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Set Short-Term and Medium-Term Milestones",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Big visions require milestones. Example:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "**Short-Term (1–2 years):** Get into consulting via Big 4.",
+            "**Medium-Term (3–5 years):** Move to MBB or strategy role in Fortune 500.",
+            "**Long-Term (10 years):** Partner / CXO role."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Map 1 short-term and 1 medium-term milestone toward your vision.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "",
+              "Milestone",
+              "By when"
+            ],
+            "rows": [
+              [
+                "Short term (1–2 years)",
+                "",
+                ""
+              ],
+              [
+                "Medium term (3–5 years)",
+                "",
+                ""
+              ],
+              [
+                "Long term (10 years)",
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Identify Your Core Strengths & Development Areas",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Clarity on your strengths lets you double down; clarity on weaknesses helps you upskill."
+        },
+        {
+          "t": "p",
+          "text": "Framework:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Strengths = what you do better than peers.",
+            "Weaknesses = gaps that limit growth."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Ask 3 colleagues: “What do I do best?” and “Where should I improve?” Note down themes.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Colleague",
+              "What I do best",
+              "Where I should improve"
+            ],
+            "rows": 3
+          }
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Map Your Career Against Market Trends",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Industries evolve fast. Roles today may not exist tomorrow. Align your strategy with **future demand.**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Consulting: Digital, ESG, analytics.",
+            "Finance: Fintech, sustainable investing.",
+            "Tech: AI, cloud, cybersecurity."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Identify 1 macro-trend in your industry. Write how you’ll align your career with it.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Build a Personal Brand That Attracts Opportunities",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your brand = how the market perceives you. Build it by:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Sharing insights on LinkedIn.",
+            "Speaking at webinars.",
+            "Publishing blogs or whitepapers."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "When recruiters Google you, they should see **evidence of expertise.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a 1-sentence “positioning statement” (e.g., Finance professional passionate about ESG investing).",
+          "lines": 2
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Leverage Networking Strategically",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Networking isn’t random—it’s targeted. Build **3 networks:**"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Internal mentors.",
+            "Industry peers.",
+            "Recruiters & headhunters."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Make a list of 5 people you’ll reach out to this month.",
+          "lines": 4,
+          "numbered": 5
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Upskill Continuously and Smartly",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Don’t learn everything. Learn strategically. Example:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Consultant? Learn AI strategy, data storytelling.",
+            "Banker? Learn Python, fintech regulation.",
+            "Tech professional? Learn product frameworks."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Pick 1 skill that boosts your long-term vision.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 7"
+    },
+    {
+      "title": "Create a Career Portfolio, Not Just a Job History",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A job is temporary. A **career portfolio** is the sum of your skills, networks, and projects. Build assets that outlive jobs: certifications, thought leadership, side hustles."
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "What assets are you building beyond your current job?",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 8"
+    },
+    {
+      "title": "Plan for Career Pivots and Transitions",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Few careers are linear. Be ready to pivot. Example:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Consulting → VC → Entrepreneurship.",
+            "Finance → ESG → Policy.",
+            "Tech → Product → Strategy."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down one “Plan B” career path if your current plan doesn’t work out.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 9"
+    },
+    {
+      "title": "Strategy Consulting Career Path",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Rohit joined a Big Four firm after his MBA. With mentorship, he moved to a strategy consulting firm within 3 years. By strategically publishing LinkedIn insights on digital transformation, he built thought leadership and accelerated to Manager within 6 years."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Career strategy = **intentional positioning + execution.**"
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Tech to Product Management Transition",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Megha, a software engineer, realized coding wasn’t her long-term path. With guidance, she pursued a 1-year MBA, networked into a fintech startup, and now leads product strategy."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Pivoting early + aligning skills = exponential growth."
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Common Mistakes and Your 90-Day Plan",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Mistakes: Drifting without vision, ignoring trends, waiting for promotions.",
+            "Fix: Define vision, rebrand, network, upskill."
+          ]
+        },
+        {
+          "t": "plan",
+          "rows": [
+            [
+              "Days 1–30",
+              "Define vision + audit skills."
+            ],
+            [
+              "Days 31–60",
+              "Refresh branding + begin networking."
+            ],
+            [
+              "Days 61–90",
+              "Target opportunities aligned to vision."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

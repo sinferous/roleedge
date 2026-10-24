@@ -48,3 +48,4 @@ next-env.d.ts
 
 # client-supplied briefs stay on this PC
 /Client details/
+/Downloadable content/

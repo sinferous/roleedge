@@ -6,7 +6,7 @@ Last updated: 2026-10-24.
 
 ## 1. Where things stand
 
-The site runs locally and is not live. The plan is to finish every page locally, then connect the real services and deploy. **Going live needs the owner's explicit go-ahead.**
+**Live on Vercel since 2026-10-24**, deployed from `main` at github.com/sinferous/roleedge (public repo; it replaced the static v1 site). Every push to `main` deploys to production, so push only with the owner's go-ahead. Supabase, Resend and Turnstile are not connected yet. Until they are, booking, contact, the planner email and the admin login fail in production by design. `Client details/` and `Downloadable content/` (the owner's raw Word drafts) are gitignored and must stay off GitHub.
 
 | Page | Route | Status |
 | --- | --- | --- |
@@ -14,7 +14,7 @@ The site runs locally and is not live. The plan is to finish every page locally,
 | Study abroad | `/study-abroad` | **Done.** Owner said it "looks crazy good". Own layout (see §3). |
 | Career | `/career` | **Done.** Own layout (see §3). |
 | For institutions | `/institutions` | **Done.** Own layout (see §3). |
-| Resources | `/resources` | **Done.** Eight free PDFs, all marked Draft until Mayank approves them. |
+| Resources | `/resources` | **Done.** 19 guides and workbooks (shown in production) plus the eight short worksheets (Draft until Mayank approves them). Three tracks: study abroad, consulting, career. |
 | Blogs | `/blog`, `/blog/[slug]`, `/blog/category/[slug]` | Working, generic layout. |
 | About us | `/about` | **Built and shaped with the owner.** The only page with a full-screen banner. Waiting on Mayank's facts and photo approval. |
 | Client stories | `/stories` | Working. Its map is now the home page map (`GlobalReach`), not the old GIF. |
@@ -163,6 +163,25 @@ Navigation: Home · Study abroad · Career · For institutions · Blogs · Resou
    - Connect Supabase, Resend, Turnstile, Sanity and Vercel.
    - Deploy, then switch DNS.
 
+### Guides and workbooks (added 2026-10-24, not pushed yet)
+
+- **Source.** The owner's Word drafts in `Downloadable content/` were converted once into `content/guides/<slug>.json`, then edited by hand. Edit the JSON from now on, not the Word files. Antigravity's earlier PDFs of the same drafts are replaced.
+- **Build.** `npm run build:downloads` renders every resource. A resource with a `content/guides/<slug>.json` file uses the guide template in `scripts/guide-pdf.mjs`; the others use the worksheet template in `build-downloads.mjs`. Pass slugs to rebuild only some: `npm run build:downloads -- case-math-workbook`.
+- **Template.** Navy band with the logo on every page (Chrome header template, so the logo and font are inline data URIs), a cover with contents, ruled lines or tables under every exercise, a "My notes" last page and the "Want someone to check your work?" call to action. Headings stay with the block after them. Practice sets, guesstimate worksheets and answers start on a new page.
+- **Keep dashed borders out of the PDFs.** Chrome draws them as thousands of tiny segments; one workbook was 1.1 MB because of them.
+- **Editorial changes Mayank should review** (all in the JSON):
+  - Claims with no source were softened or removed: "7–10 times", "70%+ referrals", "6–8 seconds", "over 90% use ATS", "EQ is the #1 predictor", "we've seen hundreds".
+  - Examples no longer name RoleEdge or Mayank, and real firms in success stories are generic ("a strategy consulting firm"). Every example section says it is illustrative.
+  - The fake LinkedIn recommendation from Mayank is replaced with a generic one.
+  - Case math: the Mumbai taxi sum is corrected (₹60 Cr a day), and the made-up "20/60/20 questions" pages are now 40 real practice questions with an answer key (answers checked). The guesstimate workbook has 45 questions and three worksheets. The "+35%" salary figure is corrected to +33%.
+  - Dated facts updated: GMAT targets point to each school's class profile, LinkedIn allows 100 skills, visa pages tell readers to check the official government site.
+
+### Download popup (added 2026-10-24, not pushed yet)
+
+- The first Download asks for a name, email and consent in a popup (`components/site/DownloadButton.tsx`). It posts to `/api/resources/download`, which saves a lead with source `resource` (the topic is the resource slug) and emails the link. The browser then remembers the visitor, so later downloads start straight away.
+- **Until Supabase is connected, production can't save these leads.** The API returns 500 there, and the popup downloads anyway so visitors are never blocked. Connect Supabase before relying on the emails.
+- The gate is soft: the PDFs are still public files in `public/downloads/`. Repeat downloads are logged without a Turnstile token, so they won't be recorded once Turnstile is switched on.
+
 ## 6. Gotchas already solved (don't undo)
 
 - **Page landing scrolled down after navigation.** Fixed with `data-scroll-behavior="smooth"` on `<html>` in `app/layout.tsx`. Keep it.
@@ -179,6 +198,8 @@ Navigation: Home · Study abroad · Career · For institutions · Blogs · Resou
 - **Lint ignores Playwright output.** `playwright-report/` and `test-results/` are in the ESLint ignores; without that, `npm run check` fails on the generated report.
 - **Home hero on phones.** The photo fills only the top 70% of the hero (`app/pages.css`), so the face stays above the headline. Keep this if the photo changes.
 - **Playwright uses the installed Chrome** (`channel: "chrome"`); its bundled Chromium is not installed. The downloads script does the same.
+- **Vercel settings live in `vercel.json`.** The Vercel project was created for the static v1 site (build output in `dist`). `vercel.json` sets the framework to Next.js and overrides that; without it Vercel returns 404 NOT_FOUND.
+- **Nothing that checks the admin session may be prerendered.** `getAdmin()` calls `connection()` first; otherwise the production guard throws during `next build` and the Vercel build fails.
 - **Screen-reader names.** The journey stage buttons have `aria-label`s, because their titles are hidden on phones.
 
 ## 7. Running it

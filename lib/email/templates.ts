@@ -53,6 +53,18 @@ export const templates = {
     subject: "About your requested call time",
     text: `Hi ${name},\n\nUnfortunately ${formatSlot(slotStart)} no longer works on our side. Reply to this email with a few times that suit you, or request another slot at ${site.url}/book.${signOff}`,
   }),
+  resourceLink: (to: string, name: string, title: string, path: string): Email => ({
+    template: "resource-link",
+    to,
+    replyTo: site.email,
+    subject: `Your ${title}, from RoleEdge`,
+    text: `Hi ${name},
+
+Here is the ${title} you downloaded, in case you need it again:
+${site.url}${path}
+
+Print it and fill it in. When you want someone to check your work, book a free call: ${site.url}/book${signOff}`,
+  }),
   plannerPlan: (to: string, planText: string): Email => ({
     template: "planner-plan",
     to,

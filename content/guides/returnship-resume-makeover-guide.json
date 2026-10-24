@@ -1,0 +1,330 @@
+{
+  "slug": "returnship-resume-makeover-guide",
+  "title": "Returnship Resume Makeover Guide",
+  "subtitle": "How to Re-Enter the Workforce With Confidence and Credibility",
+  "sections": [
+    {
+      "title": "Why Returnships Are Gaining Momentum",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In today’s job market, companies are waking up to the value of experienced professionals re-entering after a career break. Many large employers, from banks to tech firms, now run **structured “returnship programs.”** These initiatives recognize that a career break doesn’t erase your talent—it simply means you paused."
+        },
+        {
+          "t": "p",
+          "text": "With the rise of diversity and inclusion initiatives, returnship programs are actively sought after. Employers value returnees for their **maturity, prior experience, and resilience.** The key is how you **present yourself on paper.** A resume that reads like a gap-filled story raises red flags. But one that reframes the break as growth and positions you with updated skills signals **confidence and readiness.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write down 3 things you gained during your career break (skills, perspectives, certifications, life experiences).",
+          "lines": 4,
+          "numbered": 3
+        }
+      ]
+    },
+    {
+      "title": "Resume Challenges After a Career Break",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Returnship candidates face unique hurdles:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Gaps in work history → triggers concern about relevance.",
+            "Outdated skills → perception of being “behind the curve.”",
+            "Lack of recent achievements → resume feels stale."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "But these are **solvable with strategy.** Recruiters don’t expect perfection. They expect **honesty + positioning.** Instead of apologizing for your break, use your resume to:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Showcase your past wins.",
+            "Emphasize upskilling or projects during the break.",
+            "Reframe your profile around transferable skills."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Reflection",
+          "text": "How do you currently explain your break? Is it defensive, or confident?",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "The New Resume Mindset – Positioning, Not Apologizing",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The biggest mistake returnees make is apologizing for their break. Instead, shift your mindset:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "You are **not a beginner**; you bring proven experience.",
+            "Your break is not a “gap”—it’s a **transition period.**",
+            "Recruiters don’t care why you took a break as much as **what you did with it.**"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "A confident resume says: “Here’s the value I created before, here’s how I stayed engaged, and here’s why I’m ready now.”"
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write a one-sentence reframe of your break. Example: “After a planned 2-year break to focus on family, I pursued certifications in data analytics to stay industry-relevant and am now ready to re-enter full-time.”",
+          "lines": 3
+        }
+      ]
+    },
+    {
+      "title": "Craft a Powerful Summary Statement",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Your summary is the first thing recruiters read. It must signal **relevance, energy, and clarity.**"
+        },
+        {
+          "t": "compare",
+          "rows": [
+            [
+              "Bad",
+              "“Chartered Accountant with 8 years’ experience, career break since 2020, looking for opportunities.”"
+            ],
+            [
+              "Better",
+              "“Finance professional with 8 years of experience at Deloitte and EY, recently upskilled in financial modeling and ESG reporting, now seeking to contribute to dynamic finance teams.”"
+            ]
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Write 3 versions of your summary—one conservative, one ambitious, one creative.",
+          "lines": 4,
+          "table": {
+            "columns": [
+              "Version",
+              "My summary"
+            ],
+            "rows": [
+              [
+                "Conservative",
+                ""
+              ],
+              [
+                "Ambitious",
+                ""
+              ],
+              [
+                "Creative",
+                ""
+              ]
+            ]
+          }
+        }
+      ],
+      "eyebrow": "Step 1"
+    },
+    {
+      "title": "Reframe Your Career Break as a Strength",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Instead of leaving the break blank, include it strategically:",
+            "**“Career Sabbatical (2020–2022): Completed data analytics certification, volunteered with NGO on financial planning, managed cross-border relocation.”**"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "This shows initiative and growth. Break = Strength."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "List 2–3 tangible outcomes from your break.",
+          "lines": 4,
+          "numbered": 3
+        }
+      ],
+      "eyebrow": "Step 2"
+    },
+    {
+      "title": "Highlight Transferable Skills & Recent Learning",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Even if you weren’t in full-time work, you still developed skills. Highlight:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Certifications (PMP, CFA Level I, SQL, Python).",
+            "Freelance or consulting gigs.",
+            "Skills from personal projects (budgeting, event management)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Write one bullet point about a skill you gained in the past 12 months.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 3"
+    },
+    {
+      "title": "Showcasing Projects, Freelance & Volunteering Work",
+      "blocks": [
+        {
+          "t": "lines",
+          "items": [
+            "Recruiters value recent activity—even unpaid. Example:",
+            "“Volunteered with XYZ NGO to implement accounting system upgrades, improving reporting accuracy by 30%.”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Freelance and volunteering show you stayed **engaged and proactive.**"
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Write 2 project bullets you can add under your break.",
+          "lines": 4,
+          "numbered": 2
+        }
+      ],
+      "eyebrow": "Step 4"
+    },
+    {
+      "title": "Emphasize Achievements Over Job Titles",
+      "blocks": [
+        {
+          "t": "compare",
+          "rows": [
+            [
+              "Instead of",
+              "“Analyst at EY (2015–2018)”"
+            ],
+            [
+              "Write",
+              "“Streamlined audit process for FMCG client, reducing reporting errors by 20%, saving ₹50 lakhs annually.”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Focus on **impact, not tasks.** Numbers = credibility."
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Rewrite one bullet from your old job to focus on results.",
+          "lines": 4
+        }
+      ],
+      "eyebrow": "Step 5"
+    },
+    {
+      "title": "Optimize for ATS (Applicant Tracking Systems)",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Most large employers screen resumes with software first. To pass ATS:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Mirror job description keywords.",
+            "Avoid fancy templates with graphics.",
+            "Stick to clean formatting (Calibri, Arial, 11–12 pt)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Take 1 target job description. Highlight 5 keywords. Ensure they appear in your resume.",
+          "lines": 4,
+          "numbered": 5
+        }
+      ],
+      "eyebrow": "Step 6"
+    },
+    {
+      "title": "Returnship Resume That Won an Offer",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Priya, ex-KPMG auditor, took 3 years off for childcare. She returned by:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completing an IFRS certification.",
+            "Volunteering at a local NGO for financial reporting.",
+            "Rewriting resume with impact-driven bullets."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Result: she landed a finance manager returnship at a large tech company."
+        },
+        {
+          "t": "callout",
+          "label": "Lesson",
+          "text": "Breaks can be leveraged when paired with **evidence of continuous learning.**"
+        }
+      ],
+      "example": true
+    },
+    {
+      "title": "Mistakes to Avoid in Returnship Resumes",
+      "blocks": [
+        {
+          "t": "avoid",
+          "items": [
+            "Over-explaining the break (“I had to…”).",
+            "Using outdated formats (2-page CVs with generic objectives).",
+            "Ignoring recent projects/courses.",
+            "Forgetting to update LinkedIn alongside resume."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Exercise",
+          "text": "Which mistake are you making now? Write 1 corrective step.",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "title": "Resume Templates for Returnships",
+      "blocks": [
+        {
+          "t": "ul",
+          "items": [
+            "Template 1: Chronological + Break Note.",
+            "Template 2: Skills-Based Resume (focuses on expertise over timeline).",
+            "Template 3: Hybrid (best for career pivots + breaks)."
+          ]
+        },
+        {
+          "t": "exercise",
+          "label": "Worksheet",
+          "text": "Pick a template style and write why it fits your story best.",
+          "lines": 4
+        }
+      ]
+    }
+  ]
+}
